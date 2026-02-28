@@ -37,6 +37,7 @@ th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge.med { background: var(--med); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
+.assessment-box { background: #f2fbf4; border: 1px solid #cfead4; border-radius: 8px; padding: 8px; font-size: 0.84rem; color: #234132; min-width: 260px; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
 a { color: var(--nh-green-900); }
 </style>
@@ -51,7 +52,7 @@ a { color: var(--nh-green-900); }
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
       <div class="card"><div>Pages assessed</div><b>111</b></div>
-      <div class="card"><div>Facilities pass</div><b>93</b></div>
+      <div class="card"><div>Core facilities pass</div><b>108</b></div>
       <div class="card"><div>Imagery pass</div><b>46</b></div>
       <div class="card"><div>Join route missing</div><b>1</b></div>
     </div>
@@ -65,12 +66,13 @@ a { color: var(--nh-green-900); }
     <thead>
       <tr>
         <th>Gym Page</th>
-        <th>Facilities</th>
+        <th>Core Facilities</th>
         <th>Imagery</th>
         <th>Fix Priority</th>
         <th>Join Route</th>
-        <th>Facilities Evidence</th>
+        <th>Core Facilities Evidence</th>
         <th>Imagery Evidence</th>
+        <th>Club Description Assessment</th>
         <th>Join Route Evidence</th>
       </tr>
     </thead>
@@ -81,8 +83,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -92,8 +95,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -103,8 +107,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">High</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
+<td class="small">Core facilities are incomplete. Missing from the page copy: Sauna. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -114,8 +119,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Needs improvement</b><br>The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -125,8 +131,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">High</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are incomplete. Missing from the page copy: Pool. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page.</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -136,8 +143,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -147,19 +155,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bishops-stortford" target="_blank" rel="noopener">Bishop's Stortford Fitness & Wellbeing Gym
                       Bishop's Stortford</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -169,19 +179,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bolton" target="_blank" rel="noopener">Bolton Fitness & Wellbeing Gym
                       Bolton</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -191,8 +203,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Needs improvement</b><br>The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -202,8 +215,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -213,8 +227,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -224,8 +239,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -235,8 +251,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -246,8 +263,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -257,8 +275,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -268,8 +287,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -279,19 +299,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chester" target="_blank" rel="noopener">Chester Fitness & Wellbeing Gym
                       Chester</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -301,8 +323,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -312,8 +335,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -323,8 +347,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -334,8 +359,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -345,8 +371,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -356,8 +383,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -367,8 +395,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -378,8 +407,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -389,8 +419,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -400,8 +431,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -411,8 +443,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -422,8 +455,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -433,8 +467,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -444,8 +479,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -455,8 +491,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -466,41 +503,45 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/east-kilbride" target="_blank" rel="noopener">East Kilbride Fitness & Wellbeing Gym
                       East Kilbride</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/edinburgh" target="_blank" rel="noopener">Edinburgh Fitness & Wellbeing Gym
                       Edinburgh</a></td>
+<td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Low</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are incomplete. Missing from the page copy: Sauna, Steam. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/edinburgh-fountain-park" target="_blank" rel="noopener">Edinburgh Fountain Park Fitness & Wellbeing Gym
                       Edinburgh Fountain Park</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -510,19 +551,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/enfield" target="_blank" rel="noopener">Enfield Fitness & Wellbeing Gym
                       Enfield</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -532,8 +575,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -543,8 +587,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -554,19 +599,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/fulham" target="_blank" rel="noopener">Fulham Fitness & Wellbeing Gym
                       Fulham</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -576,8 +623,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -587,8 +635,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -598,8 +647,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -609,8 +659,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -620,8 +671,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -631,8 +683,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -642,8 +695,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -653,8 +707,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -664,8 +719,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -675,19 +731,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/hertford" target="_blank" rel="noopener">Hertford Fitness & Wellbeing Gym
                       Hertford</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -697,8 +755,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -708,8 +767,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -719,8 +779,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -729,8 +790,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">High</span></td>
 <td>Missing</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">No clear membership options/join route found on this page.</td>
 </tr>
 <tr>
@@ -740,8 +802,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -751,19 +814,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leeds" target="_blank" rel="noopener">Leeds Gym, The Light
                       Leeds</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -773,8 +838,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -784,8 +850,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -795,19 +862,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/manchester-printworks" target="_blank" rel="noopener">Manchester Printworks Fitness & Wellbeing Gym
                       Manchester Printworks</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -817,8 +886,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -828,8 +898,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -839,19 +910,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/moorgate" target="_blank" rel="noopener">Moorgate Fitness & Wellbeing Gym
                       Moorgate</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -861,8 +934,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -872,19 +946,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/northampton" target="_blank" rel="noopener">Northampton Fitness & Wellbeing Gym
                       Northampton</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -894,8 +970,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -905,19 +982,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/nuneaton" target="_blank" rel="noopener">Nuneaton Fitness & Wellbeing Gym
                       Nuneaton</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -927,8 +1006,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -938,8 +1018,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -949,19 +1030,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/portsmouth" target="_blank" rel="noopener">Portsmouth Fitness & Wellbeing Gym
                       Portsmouth</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -971,8 +1054,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -982,8 +1066,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -993,8 +1078,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1004,8 +1090,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1015,8 +1102,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1026,8 +1114,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1037,8 +1126,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1048,8 +1138,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1059,8 +1150,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1070,8 +1162,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1081,8 +1174,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1092,8 +1186,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1103,8 +1198,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1114,8 +1210,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1125,8 +1222,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1136,8 +1234,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1147,8 +1246,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1158,8 +1258,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1169,8 +1270,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1180,8 +1282,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1191,8 +1294,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1202,8 +1306,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1213,8 +1318,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1224,8 +1330,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1235,8 +1342,9 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1246,19 +1354,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wokingham" target="_blank" rel="noopener">Wokingham Fitness & Wellbeing Gym
                       Wokingham</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1268,19 +1378,21 @@ a { color: var(--nh-green-900); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Low</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/worcester" target="_blank" rel="noopener">Worcester Fitness & Wellbeing Gym
                       Worcester</a></td>
+<td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">High</span></td>
+<td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Appealing</b><br>The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
@@ -1290,15 +1402,16 @@ a { color: var(--nh-green-900); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge med">Medium</span></td>
 <td>Present</td>
-<td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
+<td class="small">Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td><div class="assessment-box"><b>Needs improvement</b><br>The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph.</div></td>
 <td class="small">Membership options/join route detected.</td>
 </tr></tbody>
   </table>
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
-  <div>Generated: 2026-02-28T15:58:36.955Z</div>
+  <div>Generated: 2026-02-28T16:14:12.650Z</div>
 </footer>
 <script>
 const search = document.getElementById('search');

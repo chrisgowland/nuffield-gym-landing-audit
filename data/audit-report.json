@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-02-28T15:58:36.955Z",
+  "generatedAt": "2026-02-28T16:14:12.650Z",
   "source": "https://www.nuffieldhealth.com/sitemap_gyms.xml",
   "candidateCount": 111,
   "includedCount": 111,
   "summary": {
     "total": 111,
-    "facilitiesPass": 93,
+    "coreFacilitiesPass": 108,
     "imageryPass": 46,
     "joinRouteMissing": 1
   },
@@ -17,16 +17,20 @@
       "title": "Gym in Aberdeen, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -41,16 +45,20 @@
       "title": "Gym in Aylesbury, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -65,16 +73,20 @@
       "title": "Gym in Canary Wharf, Baltimore Wharf | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
+          "evidence": "Core facilities are incomplete. Missing from the page copy: Sauna. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -89,16 +101,20 @@
       "title": "Gym in Barbican, London | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Needs improvement",
+        "text": "The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -113,16 +129,20 @@
       "title": "Gym in Battersea, London, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+          "evidence": "Core facilities are incomplete. Missing from the page copy: Pool. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -137,16 +157,20 @@
       "title": "Gym in Edgbaston, Birmingham, B16 8SP | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -161,16 +185,20 @@
       "title": "Birmingham Gym, Rubery, B45 9FN | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -185,10 +213,10 @@
       "title": "Gym in Bishop's Stortford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -196,9 +224,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 47
     },
@@ -209,16 +241,20 @@
       "title": "Gym in Bloomsbury, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -233,10 +269,10 @@
       "title": "Gym in Bolton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -244,9 +280,13 @@
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 70
     },
@@ -257,16 +297,20 @@
       "title": "Gym in Bridgend, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Needs improvement",
+        "text": "The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -281,16 +325,20 @@
       "title": "Gym in Bristol (Clifton), Fitness & Wellbeing BS81QS | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -305,16 +353,20 @@
       "title": "Bristol North (Stoke Gifford) Gym | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -329,16 +381,20 @@
       "title": "Gym in Bromley, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -353,16 +409,20 @@
       "title": "Gym in Brondesbury Park, Willesden | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -377,16 +437,20 @@
       "title": "Gym in Cambridge, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -401,16 +465,20 @@
       "title": "Gym in Cannock, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -425,16 +493,20 @@
       "title": "Gym in Cheam, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -449,16 +521,20 @@
       "title": "Gym in Chelmsford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -473,10 +549,10 @@
       "title": "Gym in Chester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -484,9 +560,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 13
     },
@@ -497,16 +577,20 @@
       "title": "Gym in Chesterfield, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -521,16 +605,20 @@
       "title": "Gym in Chichester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -545,16 +633,20 @@
       "title": "Gym in Chigwell, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -569,16 +661,20 @@
       "title": "Gym in Chingford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -593,16 +689,20 @@
       "title": "Gym in Chislehurst, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -617,16 +717,20 @@
       "title": "Gym in City of London, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -641,16 +745,20 @@
       "title": "Gym in Cottingley, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -665,16 +773,20 @@
       "title": "Gym in Covent Garden, London, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -689,16 +801,20 @@
       "title": "Gym in Crawley, Fitness & Wellbeing, RH104ST | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -713,16 +829,20 @@
       "title": "Gym in Croydon Central, Fitness & Wellbeing, CR0 1RJ | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -737,16 +857,20 @@
       "title": "Gym in Croydon, Fitness & Wellbeing, CR0 4RJ | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -761,16 +885,20 @@
       "title": "Gym in Cwmbran, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -785,16 +913,20 @@
       "title": "Gym in Derby, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -809,16 +941,20 @@
       "title": "Gym in Didsbury, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -833,16 +969,20 @@
       "title": "Gym in Doncaster, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -857,16 +997,20 @@
       "title": "Gym in Ealing, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -881,10 +1025,10 @@
       "title": "Gym in East Kilbride, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -892,9 +1036,13 @@
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 40
     },
@@ -905,10 +1053,10 @@
       "title": "Gym in Edinburgh, Fitness & Wellbeing, EH141RL | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+        "coreFacilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "Core facilities are incomplete. Missing from the page copy: Sauna, Steam. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page."
         },
         "imagery": {
           "result": "Pass",
@@ -916,9 +1064,13 @@
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "Low",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 39
     },
@@ -929,10 +1081,10 @@
       "title": "Gym in Fountainbridge, Edinburgh EH11 1AF | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -940,9 +1092,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 41
     },
@@ -953,16 +1109,20 @@
       "title": "Gym in Edinburgh Centre, Omni Centre, EH13AU | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -977,10 +1137,10 @@
       "title": "Gym in Enfield, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -988,9 +1148,13 @@
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 16
     },
@@ -1001,16 +1165,20 @@
       "title": "Gym in Farnborough, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1025,16 +1193,20 @@
       "title": "Gym in Farnham, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1049,16 +1221,20 @@
       "title": "Gym in Friern Barnet, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1073,10 +1249,10 @@
       "title": "Gym in Fulham, London, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1084,9 +1260,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 81
     },
@@ -1097,16 +1277,20 @@
       "title": "Gym in Glasgow, Fitness & Wellbeing, G3 8HB | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1121,16 +1305,20 @@
       "title": "Gym in Glasgow Giffnock, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1145,16 +1333,20 @@
       "title": "Gym in Finnieston, Glasgow, G3 8AU | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1169,16 +1361,20 @@
       "title": "Gym in Gloucester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1193,16 +1389,20 @@
       "title": "Gym in Gosforth, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1217,16 +1417,20 @@
       "title": "Gym in Guildford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1241,16 +1445,20 @@
       "title": "Gyms in Guiseley, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1265,16 +1473,20 @@
       "title": "Gym in Harrogate, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1289,16 +1501,20 @@
       "title": "Gym in Hemel Hempstead, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1313,16 +1529,20 @@
       "title": "Gym in Hendon, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1337,10 +1557,10 @@
       "title": "Gym in Hertford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1348,9 +1568,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 56
     },
@@ -1361,16 +1585,20 @@
       "title": "Gym in Hull, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1385,16 +1613,20 @@
       "title": "Gym in Ilford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1409,16 +1641,20 @@
       "title": "Gym in Islington, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1433,16 +1669,20 @@
       "title": "Kents Hill Park Fitness and Wellbeing Centre, Milton Keynes | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": false,
       "joinRouteEvidence": "No clear membership options/join route found on this page.",
@@ -1457,16 +1697,20 @@
       "title": "Gym in Kingston upon Thames, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1481,16 +1725,20 @@
       "title": "Gyms in Leatherhead, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1505,10 +1753,10 @@
       "title": "Gym in Leeds, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1516,9 +1764,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 57
     },
@@ -1529,16 +1781,20 @@
       "title": "Gym in Leicester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1553,16 +1809,20 @@
       "title": "Gym in Letchworth, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1577,16 +1837,20 @@
       "title": "Gym in Liverpool, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1601,10 +1865,10 @@
       "title": "Gym in Manchester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1612,9 +1876,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 49
     },
@@ -1625,16 +1893,20 @@
       "title": "Gym in Rochester, Medway Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1649,16 +1921,20 @@
       "title": "Gym in Milngavie, Glasgow, G62 8HJ | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1673,16 +1949,20 @@
       "title": "Gym in Milton Keynes, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1697,10 +1977,10 @@
       "title": "Gym in Moorgate, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1708,9 +1988,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 30
     },
@@ -1721,16 +2005,20 @@
       "title": "Gym in Newbury, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1745,16 +2033,20 @@
       "title": "Gym in Norbury, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1769,10 +2061,10 @@
       "title": "Gym in Northampton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1780,9 +2072,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 25
     },
@@ -1793,16 +2089,20 @@
       "title": "Gyms in Norwich, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1817,16 +2117,20 @@
       "title": "Nottingham (Mapperley) Gym | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1841,10 +2145,10 @@
       "title": "Gym in Nuneaton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1852,9 +2156,13 @@
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 98
     },
@@ -1865,16 +2173,20 @@
       "title": "Gym in Paddington, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1889,16 +2201,20 @@
       "title": "Gym in Plymouth, Fitness & Wellbeing, PL4 0LG | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1913,16 +2229,20 @@
       "title": "Gym in Plymouth, Health & Racquets Club, PL6 8BD | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1937,10 +2257,10 @@
       "title": "Gym in Portsmouth, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -1948,9 +2268,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 52
     },
@@ -1961,16 +2285,20 @@
       "title": "Gym in Preston, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -1985,16 +2313,20 @@
       "title": "Gym in Reading, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2009,16 +2341,20 @@
       "title": "Gym in Romford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2033,16 +2369,20 @@
       "title": "Gym in Rugby, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2057,16 +2397,20 @@
       "title": "Gym in Sheffield, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2081,16 +2425,20 @@
       "title": "Gym in Shipley, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2105,16 +2453,20 @@
       "title": "Gym in Shoreditch, London | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2129,16 +2481,20 @@
       "title": "Gym in St Albans, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2153,16 +2509,20 @@
       "title": "Gym in Uxbridge, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2177,16 +2537,20 @@
       "title": "Gym in Stoke, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2201,16 +2565,20 @@
       "title": "Gym in Stoke Poges, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2225,16 +2593,20 @@
       "title": "Gym in Sunbury-on-Thames, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2249,16 +2621,20 @@
       "title": "Gym in Surbiton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2273,16 +2649,20 @@
       "title": "Gym in Swindon, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2297,16 +2677,20 @@
       "title": "Gym in Taunton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2321,16 +2705,20 @@
       "title": "Gym in Telford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2345,16 +2733,20 @@
       "title": "Gym in Oxford, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2369,16 +2761,20 @@
       "title": "Gym in Tunbridge Wells, Fitness & Wellbeing | Nuffield Health.",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2393,16 +2789,20 @@
       "title": "Gyms in Twickenham, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2417,16 +2817,20 @@
       "title": "Gym in Wakefield, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2441,16 +2845,20 @@
       "title": "Gym in Wandsworth, Fitness & Wellbeing SW18 4SQ | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2465,16 +2873,20 @@
       "title": "Gym in Wandsworth Southside, SW18 4TQ | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2489,16 +2901,20 @@
       "title": "Gym in Warwick, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2513,16 +2929,20 @@
       "title": "Gym in West Byfleet, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2537,16 +2957,20 @@
       "title": "Gym in Weston-super-Mare, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2561,16 +2985,20 @@
       "title": "Gym in Wimbledon SW19, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2585,10 +3013,10 @@
       "title": "Gym in Wokingham, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -2596,9 +3024,13 @@
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 87
     },
@@ -2609,16 +3041,20 @@
       "title": "Gym in Wolverhampton, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
         }
+      },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
@@ -2633,10 +3069,10 @@
       "title": "Gym in Worcester, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
+        "coreFacilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
@@ -2644,9 +3080,13 @@
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
+      "clubDescription": {
+        "tone": "Appealing",
+        "text": "The club description is appealing. It communicates clear benefits and uses persuasive language about the experience."
+      },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",
-      "fixPriority": "High",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 24
     },
@@ -2657,16 +3097,20 @@
       "title": "Gym in Yeovil, Fitness & Wellbeing | Nuffield Health",
       "isLikelyGymPage": true,
       "criteria": {
-        "facilities": {
+        "coreFacilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
+          "evidence": "Core facilities are clearly listed: Gym, Sauna, Steam, Pool, PT, Classes."
         },
         "imagery": {
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
+      },
+      "clubDescription": {
+        "tone": "Needs improvement",
+        "text": "The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph."
       },
       "joinRoutePresent": true,
       "joinRouteEvidence": "Membership options/join route detected.",

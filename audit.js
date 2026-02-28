@@ -30,28 +30,13 @@ const NON_GYM_SLUGS = new Set([
   'crawley-central-gym'
 ]);
 
-const FACILITY_TERMS = [
-  'swimming pool',
-  'pool',
-  'sauna',
-  'steam room',
-  'spa',
-  'gym floor',
-  'weights',
-  'free weights',
-  'cardio',
-  'studio',
-  'studios',
-  'spin',
-  'group exercise',
-  'exercise classes',
-  'personal training',
-  'pt',
-  'squash',
-  'tennis',
-  'badminton',
-  'creche',
-  'parking'
+const CORE_FACILITIES = [
+  { key: 'gym', label: 'Gym', test: (t) => /\bgym\b|gym floor|fitness suite/.test(t) },
+  { key: 'sauna', label: 'Sauna', test: (t) => /\bsauna\b/.test(t) },
+  { key: 'steam', label: 'Steam', test: (t) => /\bsteam\b|steam room/.test(t) },
+  { key: 'pool', label: 'Pool', test: (t) => /\bpool\b|swimming pool/.test(t) },
+  { key: 'pt', label: 'PT', test: (t) => /\bpersonal training\b|\bpt\b/.test(t) },
+  { key: 'classes', label: 'Classes', test: (t) => /\bclasses?\b|group exercise|studio classes/.test(t) }
 ];
 
 const JOIN_TEXT_TERMS = [
@@ -136,21 +121,62 @@ function buildImageryEvidence(meaningfulImagesCount, modernFormatCount, lazyCoun
   return `Imagery needs improvement: ${meaningfulImagesCount} relevant images found, ${modernFormatCount} modern-format assets, ${lazyCount} lazy-loaded images. Recommended actions: ${improvements.join('; ')}.`;
 }
 
-function buildFacilitiesEvidence(facilitiesFound, hasFacilitiesSection, pass) {
+function buildCoreFacilitiesEvidence(foundLabels, pass) {
+  const required = CORE_FACILITIES.map((f) => f.label);
   if (pass) {
-    return `Facilities are clearly described. We found ${facilitiesFound.length} facility signals (${facilitiesFound.slice(0, 8).join(', ')}), and the page includes a clear facilities/amenities section.`;
+    return `Core facilities are clearly listed: ${required.join(', ')}.`;
   }
 
-  const improvements = [];
-  if (facilitiesFound.length < 10) {
-    improvements.push(`list more specific facilities on the main page (currently ${facilitiesFound.length}, target at least 10)`);
-  }
-  if (!hasFacilitiesSection) {
-    improvements.push('add a dedicated "Facilities" or "What is available" section above the fold');
+  const missing = required.filter((name) => !foundLabels.includes(name));
+  return `Core facilities are incomplete. Missing from the page copy: ${missing.join(', ')}. Recommended action: add these items explicitly in a dedicated facilities section near the top of the page.`;
+}
+
+function assessClubDescription(h1, metaDescription, bodyText) {
+  const snippet = `${h1}. ${metaDescription}`.trim();
+  const lowerSnippet = snippet.toLowerCase();
+  const lowerBody = bodyText.toLowerCase();
+
+  const appealTerms = [
+    'modern',
+    'state-of-the-art',
+    'expert',
+    'friendly',
+    'support',
+    'wellbeing',
+    'community',
+    'spacious',
+    'premium',
+    'motivating',
+    'award',
+    'refurbished'
+  ];
+
+  const benefitTerms = [
+    'help you',
+    'whether you',
+    'whatever your goal',
+    'tailored',
+    'personalised',
+    'achieve',
+    'improve',
+    'feel better'
+  ];
+
+  const appealHits = appealTerms.filter((t) => lowerSnippet.includes(t) || lowerBody.includes(t)).length;
+  const benefitHits = benefitTerms.filter((t) => lowerSnippet.includes(t) || lowerBody.includes(t)).length;
+  const hasStrongDescription = snippet.length >= 120 && appealHits >= 2 && benefitHits >= 1;
+
+  if (hasStrongDescription) {
+    return {
+      tone: 'Appealing',
+      text: 'The club description is appealing. It communicates clear benefits and uses persuasive language about the experience.'
+    };
   }
 
-  const sample = facilitiesFound.length ? facilitiesFound.slice(0, 8).join(', ') : 'none detected';
-  return `Facilities need improvement. We found ${facilitiesFound.length} facility signals (${sample}) and facilities section present = ${hasFacilitiesSection}. Recommended actions: ${improvements.join('; ')}.`;
+  return {
+    tone: 'Needs improvement',
+    text: 'The club description is not very compelling yet. Improve it by adding clearer member benefits, more distinctive language about the experience, and one strong value proposition in the opening paragraph.'
+  };
 }
 
 function assessPage(url, html) {
@@ -175,11 +201,9 @@ function assessPage(url, html) {
   const isClosureOrPromo = /closure|coming soon|closed|promo|anniversary/i.test(`${title} ${h1} ${metaDescription}`);
   const isLikelyGymPage = ((hasTimetableOrSubNav && hasGymWords) || (hasGymWords && hasJoinWords)) && !isClosureOrPromo;
 
-  const facilitiesFound = unique(
-    FACILITY_TERMS.filter((term) => lower.includes(term))
-  );
-  const hasFacilitiesSection = /facilit(y|ies)|amenities|what's on offer|equipment/i.test(bodyText);
-  const facilitiesPass = facilitiesFound.length >= 10 && hasFacilitiesSection;
+  const coreFound = CORE_FACILITIES.filter((f) => f.test(lower)).map((f) => f.label);
+  const coreFacilitiesPass = coreFound.length === CORE_FACILITIES.length;
+  const descriptionAssessment = assessClubDescription(h1, metaDescription, bodyText);
 
   const imageRows = $('img')
     .toArray()
@@ -241,7 +265,7 @@ function assessPage(url, html) {
   const joinRoutePresent = Boolean(membershipOptionsLink) || (ctaCandidates.length > 0 && hasOnlineSignal && hasTopCTA);
 
   let fixPriority = 'Low';
-  const failCount = Number(!facilitiesPass) + Number(!imageryPass);
+  const failCount = Number(!coreFacilitiesPass) + Number(!imageryPass);
   if (!joinRoutePresent || failCount >= 2) {
     fixPriority = 'High';
   } else if (failCount === 1) {
@@ -255,15 +279,16 @@ function assessPage(url, html) {
     title,
     isLikelyGymPage,
     criteria: {
-      facilities: criterion(
-        facilitiesPass,
-        buildFacilitiesEvidence(facilitiesFound, hasFacilitiesSection, facilitiesPass)
+      coreFacilities: criterion(
+        coreFacilitiesPass,
+        buildCoreFacilitiesEvidence(coreFound, coreFacilitiesPass)
       ),
       imagery: criterion(
         imageryPass,
         buildImageryEvidence(meaningfulImages.length, modernFormatCount, lazyCount, imageryPass)
       )
     },
+    clubDescription: descriptionAssessment,
     joinRoutePresent,
     joinRouteEvidence: joinRoutePresent
       ? 'Membership options/join route detected.'
@@ -298,12 +323,13 @@ function generateHtml(report) {
       const pf = (v) => `<span class="badge ${v.pass ? 'pass' : 'fail'}">${v.result}</span>`;
       return `<tr>
 <td><a href="${g.url}" target="_blank" rel="noopener">${g.gymName}</a></td>
-<td>${pf(g.criteria.facilities)}</td>
+<td>${pf(g.criteria.coreFacilities)}</td>
 <td>${pf(g.criteria.imagery)}</td>
 <td><span class="badge ${g.fixPriority === 'High' ? 'fail' : g.fixPriority === 'Medium' ? 'med' : 'pass'}">${g.fixPriority}</span></td>
 <td>${g.joinRoutePresent ? 'Present' : 'Missing'}</td>
-<td class="small">${g.criteria.facilities.evidence}</td>
+<td class="small">${g.criteria.coreFacilities.evidence}</td>
 <td class="small">${g.criteria.imagery.evidence}</td>
+<td><div class="assessment-box"><b>${g.clubDescription.tone}</b><br>${g.clubDescription.text}</div></td>
 <td class="small">${g.joinRouteEvidence}</td>
 </tr>`;
     })
@@ -348,6 +374,7 @@ th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge.med { background: var(--med); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
+.assessment-box { background: #f2fbf4; border: 1px solid #cfead4; border-radius: 8px; padding: 8px; font-size: 0.84rem; color: #234132; min-width: 260px; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
 a { color: var(--nh-green-900); }
 </style>
@@ -362,7 +389,7 @@ a { color: var(--nh-green-900); }
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
       <div class="card"><div>Pages assessed</div><b>${report.summary.total}</b></div>
-      <div class="card"><div>Facilities pass</div><b>${report.summary.facilitiesPass}</b></div>
+      <div class="card"><div>Core facilities pass</div><b>${report.summary.coreFacilitiesPass}</b></div>
       <div class="card"><div>Imagery pass</div><b>${report.summary.imageryPass}</b></div>
       <div class="card"><div>Join route missing</div><b>${report.summary.joinRouteMissing}</b></div>
     </div>
@@ -376,12 +403,13 @@ a { color: var(--nh-green-900); }
     <thead>
       <tr>
         <th>Gym Page</th>
-        <th>Facilities</th>
+        <th>Core Facilities</th>
         <th>Imagery</th>
         <th>Fix Priority</th>
         <th>Join Route</th>
-        <th>Facilities Evidence</th>
+        <th>Core Facilities Evidence</th>
         <th>Imagery Evidence</th>
+        <th>Club Description Assessment</th>
         <th>Join Route Evidence</th>
       </tr>
     </thead>
@@ -449,7 +477,7 @@ async function main() {
     includedCount: gyms.length,
     summary: {
       total: gyms.length,
-      facilitiesPass: gyms.filter((g) => g.criteria.facilities.pass).length,
+      coreFacilitiesPass: gyms.filter((g) => g.criteria.coreFacilities.pass).length,
       imageryPass: gyms.filter((g) => g.criteria.imagery.pass).length,
       joinRouteMissing: gyms.filter((g) => !g.joinRoutePresent).length
     },
@@ -462,22 +490,26 @@ async function main() {
     'gymName',
     'url',
     'fixPriority',
-    'facilities',
+    'coreFacilities',
     'imagery',
     'joinRoute',
-    'facilitiesEvidence',
+    'coreFacilitiesEvidence',
     'imageryEvidence',
+    'clubDescriptionTone',
+    'clubDescriptionAssessment',
     'joinRouteEvidence'
   ].join(',');
   const csvRows = gyms.map((g) => [
     `"${g.gymName.replaceAll('"', '""')}"`,
     `"${g.url}"`,
     g.fixPriority,
-    g.criteria.facilities.result,
+    g.criteria.coreFacilities.result,
     g.criteria.imagery.result,
     g.joinRoutePresent ? 'Present' : 'Missing',
-    `"${g.criteria.facilities.evidence.replaceAll('"', '""')}"`,
+    `"${g.criteria.coreFacilities.evidence.replaceAll('"', '""')}"`,
     `"${g.criteria.imagery.evidence.replaceAll('"', '""')}"`,
+    `"${g.clubDescription.tone.replaceAll('"', '""')}"`,
+    `"${g.clubDescription.text.replaceAll('"', '""')}"`,
     `"${g.joinRouteEvidence.replaceAll('"', '""')}"`
   ].join(','));
   fs.writeFileSync(path.join(DATA_DIR, 'audit-report.csv'), [csvHeader, ...csvRows].join('\n'));
