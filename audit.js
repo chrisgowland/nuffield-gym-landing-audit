@@ -380,7 +380,8 @@ main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
 select { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 160px; background: #fff; }
-table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #d8e3ef; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #d8e3ef; border-radius: 8px; background: #fff; }
+table { width: 100%; min-width: 1300px; border-collapse: collapse; background: #fff; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vertical-align: top; }
 th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .filter-row th { position: static; background: #f6fbf7; }
@@ -393,6 +394,19 @@ th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .assessment-box { background: #f2fbf4; border: 1px solid #cfead4; border-radius: 8px; padding: 8px; font-size: 0.84rem; color: #234132; min-width: 260px; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
 a { color: var(--nh-green-900); }
+.mobile-hint { display: none; font-size: 0.82rem; color: #486351; margin: 6px 0 10px; }
+@media (max-width: 900px) {
+  header { padding: 18px 14px; }
+  h1 { font-size: 1.35rem; }
+  .sub { font-size: 0.92rem; }
+  .brand img { height: 32px; }
+  main { padding: 14px; }
+  .controls { gap: 6px; }
+  .controls input { width: 100%; min-width: 0; }
+  th, td { padding: 8px; font-size: 0.84rem; }
+  .badge { font-size: 0.76rem; }
+  .mobile-hint { display: block; }
+}
 </style>
 </head>
 <body>
@@ -416,6 +430,8 @@ a { color: var(--nh-green-900); }
   <div class="controls">
     <input id="search" placeholder="Filter by gym name or URL" />
   </div>
+  <div class="mobile-hint">On mobile: swipe left/right to view all columns.</div>
+  <div class="table-wrap">
   <table id="audit-table">
     <thead>
       <tr>
@@ -468,6 +484,7 @@ a { color: var(--nh-green-900); }
     </thead>
     <tbody>${rows}</tbody>
   </table>
+  </div>
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
