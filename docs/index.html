@@ -31,9 +31,12 @@ h1 { margin: 0 0 8px; font-size: 1.8rem; }
 main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
+select { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 160px; background: #fff; }
 table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #d8e3ef; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vertical-align: top; }
 th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
+.filter-row th { position: static; background: #f6fbf7; }
+.filter-row input, .filter-row select { width: 100%; min-width: 0; font-size: 0.8rem; padding: 6px 8px; }
 .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; color: #fff; font-size: 0.82rem; font-weight: 600; }
 .badge.pass { background: var(--pass); }
 .badge.med { background: var(--med); }
@@ -77,6 +80,42 @@ a { color: var(--nh-green-900); }
         <th>Imagery Evidence</th>
         <th>Club Description Assessment</th>
         <th>Join Route Evidence</th>
+      </tr>
+      <tr class="filter-row">
+        <th><input data-filter-col="0" placeholder="Filter gym" /></th>
+        <th>
+          <select data-filter-col="1">
+            <option value="">All</option>
+            <option>Pass</option>
+            <option>Fail</option>
+          </select>
+        </th>
+        <th>
+          <select data-filter-col="2">
+            <option value="">All</option>
+            <option>Pass</option>
+            <option>Fail</option>
+          </select>
+        </th>
+        <th>
+          <select data-filter-col="3">
+            <option value="">All</option>
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+        </th>
+        <th>
+          <select data-filter-col="4">
+            <option value="">All</option>
+            <option>Present</option>
+            <option>Missing</option>
+          </select>
+        </th>
+        <th><input data-filter-col="5" placeholder="Filter core facilities evidence" /></th>
+        <th><input data-filter-col="6" placeholder="Filter imagery evidence" /></th>
+        <th><input data-filter-col="7" placeholder="Filter description assessment" /></th>
+        <th><input data-filter-col="8" placeholder="Filter join route evidence" /></th>
       </tr>
     </thead>
     <tbody><tr>
@@ -1414,18 +1453,48 @@ a { color: var(--nh-green-900); }
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
-  <div>Generated: 2026-02-28T16:40:56.482Z</div>
+  <div>Generated: 2026-02-28T16:47:00.160Z</div>
 </footer>
 <script>
 const search = document.getElementById('search');
 const rows = Array.from(document.querySelectorAll('#audit-table tbody tr'));
-search.addEventListener('input', () => {
+const columnFilters = Array.from(document.querySelectorAll('[data-filter-col]'));
+
+function applyFilters() {
   const q = search.value.toLowerCase().trim();
+  const activeColumnFilters = columnFilters.map((el) => ({
+    col: Number(el.getAttribute('data-filter-col')),
+    value: (el.value || '').toLowerCase().trim()
+  }));
+
   for (const row of rows) {
-    const t = row.textContent.toLowerCase();
-    row.style.display = t.includes(q) ? '' : 'none';
+    const allText = row.textContent.toLowerCase();
+    if (q && !allText.includes(q)) {
+      row.style.display = 'none';
+      continue;
+    }
+
+    const cells = Array.from(row.querySelectorAll('td'));
+    let matched = true;
+    for (const filter of activeColumnFilters) {
+      if (!filter.value) continue;
+      const cell = cells[filter.col];
+      const text = (cell ? cell.textContent : '').toLowerCase();
+      if (!text.includes(filter.value)) {
+        matched = false;
+        break;
+      }
+    }
+
+    row.style.display = matched ? '' : 'none';
   }
-});
+}
+
+search.addEventListener('input', applyFilters);
+for (const el of columnFilters) {
+  el.addEventListener('input', applyFilters);
+  el.addEventListener('change', applyFilters);
+}
 </script>
 </body>
 </html>
