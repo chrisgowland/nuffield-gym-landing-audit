@@ -12,6 +12,7 @@
   --nh-ink: #14311e;
   --nh-bg: #f3faf4;
   --pass: #0a8f52;
+  --med: #b07600;
   --fail: #c4372c;
 }
 * { box-sizing: border-box; }
@@ -33,6 +34,7 @@ th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vert
 th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; color: #fff; font-size: 0.82rem; font-weight: 600; }
 .badge.pass { background: var(--pass); }
+.badge.med { background: var(--med); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
@@ -51,7 +53,7 @@ a { color: var(--nh-green-900); }
       <div class="card"><div>Pages assessed</div><b>111</b></div>
       <div class="card"><div>Facilities pass</div><b>93</b></div>
       <div class="card"><div>Imagery pass</div><b>46</b></div>
-      <div class="card"><div>Join CTA pass</div><b>56</b></div>
+      <div class="card"><div>Join route missing</div><b>1</b></div>
     </div>
   </div>
 </header>
@@ -65,10 +67,11 @@ a { color: var(--nh-green-900); }
         <th>Gym Page</th>
         <th>Facilities</th>
         <th>Imagery</th>
-        <th>Join CTA</th>
+        <th>Fix Priority</th>
+        <th>Join Route</th>
         <th>Facilities Evidence</th>
         <th>Imagery Evidence</th>
-        <th>CTA Evidence</th>
+        <th>Join Route Evidence</th>
       </tr>
     </thead>
     <tbody><tr>
@@ -76,1115 +79,1226 @@ a { color: var(--nh-green-900); }
                       Aberdeen</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/aylesbury" target="_blank" rel="noopener">Aylesbury Fitness & Wellbeing Gym
                       Aylesbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/baltimore-wharf" target="_blank" rel="noopener">Baltimore Wharf Fitness & Wellbeing Gym
                       Baltimore Wharf</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/barbican" target="_blank" rel="noopener">Barbican Fitness and Wellbeing Centre
                       Barbican</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/battersea" target="_blank" rel="noopener">Battersea Fitness & Wellbeing Gym
                       Battersea</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/birmingham-central" target="_blank" rel="noopener">Birmingham Central Fitness & Wellbeing Gym
                       Birmingham Central</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/birmingham-rubery" target="_blank" rel="noopener">Birmingham Rubery Fitness & Wellbeing Gym
                       Birmingham Rubery</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bishops-stortford" target="_blank" rel="noopener">Bishop's Stortford Fitness & Wellbeing Gym
                       Bishop's Stortford</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bloomsbury" target="_blank" rel="noopener">Bloomsbury Fitness & Wellbeing Gym
                       Bloomsbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bolton" target="_blank" rel="noopener">Bolton Fitness & Wellbeing Gym
                       Bolton</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bridgend" target="_blank" rel="noopener">Bridgend Fitness & Wellbeing Gym
                       Bridgend</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bristol" target="_blank" rel="noopener">Bristol Fitness & Wellbeing Gym
                       Bristol</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bristol-north" target="_blank" rel="noopener">Bristol North Gym, Stoke Gifford
                       Bristol North</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/bromley" target="_blank" rel="noopener">Bromley Fitness & Wellbeing Gym
                       Bromley</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/brondesbury-park" target="_blank" rel="noopener">Brondesbury Park Fitness & Wellbeing Gym
                       Brondesbury Park</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/cambridge" target="_blank" rel="noopener">Cambridge Fitness & Wellbeing Gym
                       Cambridge</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/cannock" target="_blank" rel="noopener">Cannock Fitness & Wellbeing Gym
                       Cannock</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/cheam" target="_blank" rel="noopener">Cheam Fitness & Wellbeing Gym
                       Cheam</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chelmsford" target="_blank" rel="noopener">Chelmsford Fitness & Wellbeing Gym
                       Chelmsford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chester" target="_blank" rel="noopener">Chester Fitness & Wellbeing Gym
                       Chester</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chesterfield" target="_blank" rel="noopener">Chesterfield Fitness & Wellbeing Gym
                       Chesterfield</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images).</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chichester" target="_blank" rel="noopener">Chichester Fitness & Wellbeing Gym
                       Chichester</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chigwell" target="_blank" rel="noopener">Chigwell Fitness & Wellbeing Gym
                       Chigwell</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chingford" target="_blank" rel="noopener">Chingford Fitness & Wellbeing Gym
                       Chingford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/chislehurst" target="_blank" rel="noopener">Chislehurst Fitness & Wellbeing Gym
                       Chislehurst</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/city" target="_blank" rel="noopener">City Fitness & Wellbeing Gym
                       City</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/cottingley" target="_blank" rel="noopener">Cottingley Fitness & Wellbeing Gym
                       Cottingley</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/covent-garden" target="_blank" rel="noopener">Covent Garden Fitness & Wellbeing Gym
                       Covent Garden</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/crawley" target="_blank" rel="noopener">Crawley Fitness & Wellbeing Gym
                       Crawley</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/croydon-central" target="_blank" rel="noopener">Croydon Central Fitness & Wellbeing Gym
                       Croydon Central</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/croydon" target="_blank" rel="noopener">Croydon Fitness & Wellbeing Gym
                       Croydon</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/cwmbran" target="_blank" rel="noopener">Cwmbran Fitness & Wellbeing Gym
                       Cwmbran</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/derby" target="_blank" rel="noopener">Derby Fitness & Wellbeing Gym
                       Derby</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/didsbury" target="_blank" rel="noopener">Didsbury Fitness & Wellbeing Gym
                       Didsbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/doncaster" target="_blank" rel="noopener">Doncaster Fitness & Wellbeing Gym
                       Doncaster</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/ealing" target="_blank" rel="noopener">Ealing Fitness & Wellbeing Gym
                       Ealing</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/east-kilbride" target="_blank" rel="noopener">East Kilbride Fitness & Wellbeing Gym
                       East Kilbride</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/edinburgh" target="_blank" rel="noopener">Edinburgh Fitness & Wellbeing Gym
                       Edinburgh</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/edinburgh-fountain-park" target="_blank" rel="noopener">Edinburgh Fountain Park Fitness & Wellbeing Gym
                       Edinburgh Fountain Park</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/edinburgh-omni" target="_blank" rel="noopener">Edinburgh Omni Fitness & Wellbeing Gym
                       Edinburgh Omni</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/enfield" target="_blank" rel="noopener">Enfield Fitness & Wellbeing Gym
                       Enfield</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/farnborough" target="_blank" rel="noopener">Farnborough Fitness & Wellbeing Gym
                       Farnborough</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/farnham" target="_blank" rel="noopener">Farnham Fitness & Wellbeing Gym
                       Farnham</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/friern-barnet" target="_blank" rel="noopener">Friern Barnet Fitness & Wellbeing Gym
                       Friern Barnet</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/fulham" target="_blank" rel="noopener">Fulham Fitness & Wellbeing Gym
                       Fulham</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/glasgow-central" target="_blank" rel="noopener">Glasgow Central Fitness & Wellbeing Gym
                       Glasgow Central</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/glasgow-giffnock" target="_blank" rel="noopener">Glasgow Giffnock Fitness & Wellbeing Gym
                       Glasgow Giffnock</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/glasgow-west-end" target="_blank" rel="noopener">Glasgow West End Fitness & Wellbeing Club
                       Glasgow West End</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/gloucester" target="_blank" rel="noopener">Gloucester Fitness & Wellbeing Gym
                       Gloucester</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/gosforth" target="_blank" rel="noopener">Gosforth Fitness & Wellbeing Gym
                       Gosforth</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/guildford" target="_blank" rel="noopener">Guildford Fitness & Wellbeing Gym
                       Guildford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/guiseley" target="_blank" rel="noopener">Guiseley Fitness & Wellbeing Gym
                       Guiseley</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/harrogate" target="_blank" rel="noopener">Harrogate Fitness & Wellbeing Gym
                       Harrogate</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/hemel-hempstead" target="_blank" rel="noopener">Hemel Hempstead Fitness & Wellbeing Gym
                       Hemel Hempstead</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/hendon" target="_blank" rel="noopener">Hendon Fitness & Wellbeing Gym
                       Hendon</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/hertford" target="_blank" rel="noopener">Hertford Fitness & Wellbeing Gym
                       Hertford</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/hull" target="_blank" rel="noopener">Hull Fitness & Wellbeing Gym
                       Hull</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/ilford" target="_blank" rel="noopener">Ilford Fitness & Wellbeing Gym
                       Ilford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/islington" target="_blank" rel="noopener">Islington Fitness & Wellbeing Gym
                       Islington</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/kents-hill-park" target="_blank" rel="noopener">Kents Hill Park</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Missing</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3).</td>
-<td class="small">join CTA candidates=8; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">No clear membership options/join route found on this page.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/kingston" target="_blank" rel="noopener">Kingston Fitness & Wellbeing Gym
                       Kingston</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leatherhead" target="_blank" rel="noopener">Leatherhead Fitness & Wellbeing Gym
                       Leatherhead</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leeds" target="_blank" rel="noopener">Leeds Gym, The Light
                       Leeds</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leicester" target="_blank" rel="noopener">Leicester Fitness & Wellbeing Gym
                       Leicester</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/letchworth-garden-city" target="_blank" rel="noopener">Letchworth Garden City Fitness & Wellbeing Gym
                       Letchworth Garden City</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/liverpool" target="_blank" rel="noopener">Liverpool Fitness & Wellbeing Gym
                       Liverpool</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/manchester-printworks" target="_blank" rel="noopener">Manchester Printworks Fitness & Wellbeing Gym
                       Manchester Printworks</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/medway" target="_blank" rel="noopener">Medway Fitness & Wellbeing Gym
                       Medway</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/milngavie" target="_blank" rel="noopener">Milngavie Fitness & Wellbeing Gym
                       Milngavie</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images).</td>
-<td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/milton-keynes" target="_blank" rel="noopener">Milton Keynes Fitness & Wellbeing Gym
                       Milton Keynes</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/moorgate" target="_blank" rel="noopener">Moorgate Fitness & Wellbeing Gym
                       Moorgate</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/newbury" target="_blank" rel="noopener">Newbury Fitness & Wellbeing Gym
                       Newbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/norbury" target="_blank" rel="noopener">Norbury Fitness & Wellbeing Gym
                       Norbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/northampton" target="_blank" rel="noopener">Northampton Fitness & Wellbeing Gym
                       Northampton</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/norwich" target="_blank" rel="noopener">Norwich Fitness & Wellbeing Gym
                       Norwich</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/nottingham" target="_blank" rel="noopener">Nottingham Gym, Mapperley
                       Nottingham</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/nuneaton" target="_blank" rel="noopener">Nuneaton Fitness & Wellbeing Gym
                       Nuneaton</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/paddington" target="_blank" rel="noopener">Paddington Fitness & Wellbeing Gym
                       Paddington</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/plymouth" target="_blank" rel="noopener">Plymouth (Barbican) Fitness & Wellbeing Gym
                       Plymouth</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/devonshire-plymouth" target="_blank" rel="noopener">Plymouth (The Devonshire, Derriford) Health & Racquets Club
                       Devonshire</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=18; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/portsmouth" target="_blank" rel="noopener">Portsmouth Fitness & Wellbeing Gym
                       Portsmouth</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/preston" target="_blank" rel="noopener">Preston Fitness & Wellbeing Gym
                       Preston</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/reading" target="_blank" rel="noopener">Reading Fitness & Wellbeing Gym
                       Reading</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/romford" target="_blank" rel="noopener">Romford Fitness & Wellbeing Gym
                       Romford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/rugby" target="_blank" rel="noopener">Rugby Fitness & Wellbeing Gym
                       Rugby</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/sheffield" target="_blank" rel="noopener">Sheffield Fitness & Wellbeing Gym
                       Sheffield</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/shipley" target="_blank" rel="noopener">Shipley Fitness & Wellbeing Gym
                       Shipley</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/shoreditch" target="_blank" rel="noopener">Shoreditch Fitness & Wellbeing Gym
                       Shoreditch</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/st-albans" target="_blank" rel="noopener">St Albans Fitness & Wellbeing Gym
                       St Albans</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/stockley-park" target="_blank" rel="noopener">Stockley Park Fitness & Wellbeing Gym
                       Stockley Park</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/stoke" target="_blank" rel="noopener">Stoke Fitness & Wellbeing Gym
                       Stoke</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/stoke-poges" target="_blank" rel="noopener">Stoke Poges Fitness & Wellbeing Gym
                       Stoke Poges</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/sunbury" target="_blank" rel="noopener">Sunbury Fitness & Wellbeing Gym
                       Sunbury</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/surbiton" target="_blank" rel="noopener">Surbiton Fitness & Wellbeing Gym
                       Surbiton</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/swindon" target="_blank" rel="noopener">Swindon Fitness & Wellbeing Gym
                       Swindon</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/taunton" target="_blank" rel="noopener">Taunton Fitness & Wellbeing Gym
                       Taunton</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/telford" target="_blank" rel="noopener">Telford Fitness & Wellbeing Gym
                       Telford</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/oxfordshire" target="_blank" rel="noopener">The Oxfordshire Health & Racquets Club
                       Oxfordshire</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/tunbridge-wells" target="_blank" rel="noopener">Tunbridge Wells Fitness & Wellbeing Gym
                       Tunbridge Wells</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/twickenham" target="_blank" rel="noopener">Twickenham Fitness & Wellbeing Gym
                       Twickenham</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wakefield" target="_blank" rel="noopener">Wakefield Fitness & Wellbeing Gym
                       Wakefield</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wandsworth" target="_blank" rel="noopener">Wandsworth Fitness & Wellbeing Gym
                       Wandsworth</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wandsworth-southside" target="_blank" rel="noopener">Wandsworth Southside Fitness & Wellbeing Gym
                       Wandsworth Southside</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/warwick" target="_blank" rel="noopener">Warwick Fitness & Wellbeing Gym
                       Warwick</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/west-byfleet" target="_blank" rel="noopener">West Byfleet Fitness & Wellbeing Gym
                       West Byfleet</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/weston-super-mare" target="_blank" rel="noopener">Weston-super-Mare Fitness & Wellbeing Gym
                       Weston-super-Mare</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wimbledon" target="_blank" rel="noopener">Wimbledon Fitness & Wellbeing Gym
                       Wimbledon</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wokingham" target="_blank" rel="noopener">Wokingham Fitness & Wellbeing Gym
                       Wokingham</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/wolverhampton" target="_blank" rel="noopener">Wolverhampton Fitness & Wellbeing Gym
                       Wolverhampton</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge pass">Low</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/worcester" target="_blank" rel="noopener">Worcester Fitness & Wellbeing Gym
                       Worcester</a></td>
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge pass">Pass</span></td>
+<td><span class="badge fail">High</span></td>
+<td>Present</td>
 <td class="small">Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10).</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/yeovil" target="_blank" rel="noopener">Yeovil Fitness & Wellbeing Gym
                       Yeovil</a></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
-<td><span class="badge fail">Fail</span></td>
+<td><span class="badge med">Medium</span></td>
+<td>Present</td>
 <td class="small">Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section.</td>
 <td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Membership options/join route detected.</td>
 </tr></tbody>
   </table>
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
-  <div>Generated: 2026-02-28T15:54:08.793Z</div>
+  <div>Generated: 2026-02-28T15:58:36.955Z</div>
 </footer>
 <script>
 const search = document.getElementById('search');

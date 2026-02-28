@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T15:54:08.793Z",
+  "generatedAt": "2026-02-28T15:58:36.955Z",
   "source": "https://www.nuffieldhealth.com/sitemap_gyms.xml",
   "candidateCount": 111,
   "includedCount": 111,
@@ -7,7 +7,7 @@
     "total": 111,
     "facilitiesPass": 93,
     "imageryPass": 46,
-    "ctaPass": 56
+    "joinRouteMissing": 1
   },
   "gyms": [
     {
@@ -26,13 +26,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 34
     },
@@ -52,13 +50,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 110
     },
@@ -78,13 +74,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 8
     },
@@ -104,13 +98,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 92
     },
@@ -130,13 +122,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 26
     },
@@ -156,13 +146,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 27
     },
@@ -182,13 +170,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 61
     },
@@ -208,13 +194,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 47
     },
@@ -234,13 +218,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 18
     },
@@ -260,13 +242,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 70
     },
@@ -286,13 +266,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 90
     },
@@ -312,13 +290,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 54
     },
@@ -338,13 +314,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 21
     },
@@ -364,13 +338,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 19
     },
@@ -390,13 +362,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 65
     },
@@ -416,13 +386,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 82
     },
@@ -442,13 +410,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 22
     },
@@ -468,13 +434,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 14
     },
@@ -494,13 +458,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 89
     },
@@ -520,13 +482,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 13
     },
@@ -546,13 +506,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 35
     },
@@ -572,13 +530,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 5
     },
@@ -598,13 +554,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 106
     },
@@ -624,13 +578,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 43
     },
@@ -650,13 +602,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 10
     },
@@ -676,13 +626,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 1
     },
@@ -702,13 +650,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 105
     },
@@ -728,13 +674,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 111
     },
@@ -754,13 +698,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 95
     },
@@ -780,13 +722,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 48
     },
@@ -806,13 +746,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 53
     },
@@ -832,13 +770,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 46
     },
@@ -858,13 +794,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 109
     },
@@ -884,13 +818,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 100
     },
@@ -910,13 +842,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 4
     },
@@ -936,13 +866,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 32
     },
@@ -962,13 +890,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 40
     },
@@ -988,13 +914,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 39
     },
@@ -1014,13 +938,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 41
     },
@@ -1040,13 +962,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 62
     },
@@ -1066,13 +986,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 16
     },
@@ -1092,13 +1010,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 79
     },
@@ -1118,13 +1034,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 38
     },
@@ -1144,13 +1058,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 72
     },
@@ -1170,13 +1082,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 81
     },
@@ -1196,13 +1106,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 64
     },
@@ -1222,13 +1130,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 71
     },
@@ -1248,13 +1154,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 23
     },
@@ -1274,13 +1178,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 80
     },
@@ -1300,13 +1202,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 9
     },
@@ -1326,13 +1226,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 97
     },
@@ -1352,13 +1250,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 101
     },
@@ -1378,13 +1274,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 84
     },
@@ -1404,13 +1298,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 67
     },
@@ -1430,13 +1322,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 33
     },
@@ -1456,13 +1346,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 56
     },
@@ -1482,13 +1370,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 102
     },
@@ -1508,13 +1394,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 28
     },
@@ -1534,13 +1418,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 17
     },
@@ -1560,13 +1442,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3)."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=8; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": false,
+      "joinRouteEvidence": "No clear membership options/join route found on this page.",
+      "fixPriority": "High",
       "status": 200,
       "index": 75
     },
@@ -1586,13 +1466,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 31
     },
@@ -1612,13 +1490,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 99
     },
@@ -1638,13 +1514,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 57
     },
@@ -1664,13 +1538,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 3
     },
@@ -1690,13 +1562,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 29
     },
@@ -1716,13 +1586,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 74
     },
@@ -1742,13 +1610,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 49
     },
@@ -1768,13 +1634,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 37
     },
@@ -1794,13 +1658,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 45
     },
@@ -1820,13 +1682,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 42
     },
@@ -1846,13 +1706,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 30
     },
@@ -1872,13 +1730,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 73
     },
@@ -1898,13 +1754,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 103
     },
@@ -1924,13 +1778,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 25
     },
@@ -1950,13 +1802,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 55
     },
@@ -1976,13 +1826,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 50
     },
@@ -2002,13 +1850,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=13; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 98
     },
@@ -2028,13 +1874,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 107
     },
@@ -2054,13 +1898,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 108
     },
@@ -2080,13 +1922,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=18; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 59
     },
@@ -2106,13 +1946,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 52
     },
@@ -2132,13 +1970,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 96
     },
@@ -2158,13 +1994,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 83
     },
@@ -2184,13 +2018,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 77
     },
@@ -2210,13 +2042,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 11
     },
@@ -2236,13 +2066,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 85
     },
@@ -2262,13 +2090,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 91
     },
@@ -2288,13 +2114,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 2
     },
@@ -2314,13 +2138,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 36
     },
@@ -2340,13 +2162,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 78
     },
@@ -2366,13 +2186,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 76
     },
@@ -2392,13 +2210,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 68
     },
@@ -2418,13 +2234,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 94
     },
@@ -2444,13 +2258,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 66
     },
@@ -2470,13 +2282,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 60
     },
@@ -2496,13 +2306,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 93
     },
@@ -2522,13 +2330,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 63
     },
@@ -2548,13 +2354,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 7
     },
@@ -2574,13 +2378,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 6
     },
@@ -2600,13 +2402,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 86
     },
@@ -2626,13 +2426,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 69
     },
@@ -2652,13 +2450,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 44
     },
@@ -2678,13 +2474,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 58
     },
@@ -2704,13 +2498,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 15
     },
@@ -2730,13 +2522,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 104
     },
@@ -2756,13 +2546,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 88
     },
@@ -2782,13 +2570,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 12
     },
@@ -2808,13 +2594,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 87
     },
@@ -2834,13 +2618,11 @@
           "result": "Pass",
           "pass": true,
           "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Low",
       "status": 200,
       "index": 20
     },
@@ -2860,13 +2642,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Pass",
-          "pass": true,
-          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "High",
       "status": 200,
       "index": 24
     },
@@ -2886,13 +2666,11 @@
           "result": "Fail",
           "pass": false,
           "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
-        },
-        "cta": {
-          "result": "Fail",
-          "pass": false,
-          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
+      "joinRoutePresent": true,
+      "joinRouteEvidence": "Membership options/join route detected.",
+      "fixPriority": "Medium",
       "status": 200,
       "index": 51
     }

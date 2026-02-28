@@ -237,7 +237,16 @@ function assessPage(url, html) {
 
   const hasOnlineSignal = ctaCandidates.some((c) => /join|membership|become-a-member|buy|checkout/.test(c.href.toLowerCase()));
   const hasTopCTA = ctaCandidates.some((c) => c.index < 30);
-  const ctaPass = ctaCandidates.length > 0 && hasOnlineSignal && hasTopCTA;
+  const membershipOptionsLink = anchors.find((a) => /membership options/i.test(a.text));
+  const joinRoutePresent = Boolean(membershipOptionsLink) || (ctaCandidates.length > 0 && hasOnlineSignal && hasTopCTA);
+
+  let fixPriority = 'Low';
+  const failCount = Number(!facilitiesPass) + Number(!imageryPass);
+  if (!joinRoutePresent || failCount >= 2) {
+    fixPriority = 'High';
+  } else if (failCount === 1) {
+    fixPriority = 'Medium';
+  }
 
   return {
     url,
@@ -253,12 +262,13 @@ function assessPage(url, html) {
       imagery: criterion(
         imageryPass,
         buildImageryEvidence(meaningfulImages.length, modernFormatCount, lazyCount, imageryPass)
-      ),
-      cta: criterion(
-        ctaPass,
-        `join CTA candidates=${ctaCandidates.length}; top-of-page CTA=${hasTopCTA}; online-signal href=${hasOnlineSignal}`
       )
-    }
+    },
+    joinRoutePresent,
+    joinRouteEvidence: joinRoutePresent
+      ? 'Membership options/join route detected.'
+      : 'No clear membership options/join route found on this page.',
+    fixPriority
   };
 }
 
@@ -290,10 +300,11 @@ function generateHtml(report) {
 <td><a href="${g.url}" target="_blank" rel="noopener">${g.gymName}</a></td>
 <td>${pf(g.criteria.facilities)}</td>
 <td>${pf(g.criteria.imagery)}</td>
-<td>${pf(g.criteria.cta)}</td>
+<td><span class="badge ${g.fixPriority === 'High' ? 'fail' : g.fixPriority === 'Medium' ? 'med' : 'pass'}">${g.fixPriority}</span></td>
+<td>${g.joinRoutePresent ? 'Present' : 'Missing'}</td>
 <td class="small">${g.criteria.facilities.evidence}</td>
 <td class="small">${g.criteria.imagery.evidence}</td>
-<td class="small">${g.criteria.cta.evidence}</td>
+<td class="small">${g.joinRouteEvidence}</td>
 </tr>`;
     })
     .join('\n');
@@ -312,6 +323,7 @@ function generateHtml(report) {
   --nh-ink: #14311e;
   --nh-bg: #f3faf4;
   --pass: #0a8f52;
+  --med: #b07600;
   --fail: #c4372c;
 }
 * { box-sizing: border-box; }
@@ -333,6 +345,7 @@ th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vert
 th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; color: #fff; font-size: 0.82rem; font-weight: 600; }
 .badge.pass { background: var(--pass); }
+.badge.med { background: var(--med); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
@@ -351,7 +364,7 @@ a { color: var(--nh-green-900); }
       <div class="card"><div>Pages assessed</div><b>${report.summary.total}</b></div>
       <div class="card"><div>Facilities pass</div><b>${report.summary.facilitiesPass}</b></div>
       <div class="card"><div>Imagery pass</div><b>${report.summary.imageryPass}</b></div>
-      <div class="card"><div>Join CTA pass</div><b>${report.summary.ctaPass}</b></div>
+      <div class="card"><div>Join route missing</div><b>${report.summary.joinRouteMissing}</b></div>
     </div>
   </div>
 </header>
@@ -365,10 +378,11 @@ a { color: var(--nh-green-900); }
         <th>Gym Page</th>
         <th>Facilities</th>
         <th>Imagery</th>
-        <th>Join CTA</th>
+        <th>Fix Priority</th>
+        <th>Join Route</th>
         <th>Facilities Evidence</th>
         <th>Imagery Evidence</th>
-        <th>CTA Evidence</th>
+        <th>Join Route Evidence</th>
       </tr>
     </thead>
     <tbody>${rows}</tbody>
@@ -437,7 +451,7 @@ async function main() {
       total: gyms.length,
       facilitiesPass: gyms.filter((g) => g.criteria.facilities.pass).length,
       imageryPass: gyms.filter((g) => g.criteria.imagery.pass).length,
-      ctaPass: gyms.filter((g) => g.criteria.cta.pass).length
+      joinRouteMissing: gyms.filter((g) => !g.joinRoutePresent).length
     },
     gyms
   };
@@ -447,22 +461,24 @@ async function main() {
   const csvHeader = [
     'gymName',
     'url',
+    'fixPriority',
     'facilities',
     'imagery',
-    'cta',
+    'joinRoute',
     'facilitiesEvidence',
     'imageryEvidence',
-    'ctaEvidence'
+    'joinRouteEvidence'
   ].join(',');
   const csvRows = gyms.map((g) => [
     `"${g.gymName.replaceAll('"', '""')}"`,
     `"${g.url}"`,
+    g.fixPriority,
     g.criteria.facilities.result,
     g.criteria.imagery.result,
-    g.criteria.cta.result,
+    g.joinRoutePresent ? 'Present' : 'Missing',
     `"${g.criteria.facilities.evidence.replaceAll('"', '""')}"`,
     `"${g.criteria.imagery.evidence.replaceAll('"', '""')}"`,
-    `"${g.criteria.cta.evidence.replaceAll('"', '""')}"`
+    `"${g.joinRouteEvidence.replaceAll('"', '""')}"`
   ].join(','));
   fs.writeFileSync(path.join(DATA_DIR, 'audit-report.csv'), [csvHeader, ...csvRows].join('\n'));
 
