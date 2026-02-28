@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T15:39:23.698Z",
+  "generatedAt": "2026-02-28T15:54:08.793Z",
   "source": "https://www.nuffieldhealth.com/sitemap_gyms.xml",
   "candidateCount": 111,
   "includedCount": 111,
@@ -20,7 +20,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -46,7 +46,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -72,7 +72,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "8 facility terms found (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -98,7 +98,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -124,7 +124,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -150,7 +150,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -176,7 +176,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -202,7 +202,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -228,7 +228,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -254,7 +254,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -280,7 +280,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -306,7 +306,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -332,7 +332,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -358,7 +358,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -384,7 +384,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -410,7 +410,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -436,7 +436,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -462,7 +462,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -488,7 +488,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -514,7 +514,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -540,7 +540,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -566,7 +566,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -592,7 +592,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -618,7 +618,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -644,7 +644,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -670,7 +670,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -696,7 +696,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -722,7 +722,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -748,7 +748,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -774,7 +774,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -800,7 +800,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -826,7 +826,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -852,7 +852,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -878,7 +878,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -904,7 +904,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -930,7 +930,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -956,7 +956,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -982,7 +982,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1008,7 +1008,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1034,7 +1034,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1060,7 +1060,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1086,7 +1086,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1112,7 +1112,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1122,7 +1122,7 @@
         "cta": {
           "result": "Fail",
           "pass": false,
-          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
       "status": 200,
@@ -1138,7 +1138,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1164,7 +1164,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1190,7 +1190,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1216,7 +1216,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1242,7 +1242,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1268,7 +1268,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1294,7 +1294,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1304,7 +1304,7 @@
         "cta": {
           "result": "Fail",
           "pass": false,
-          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
         }
       },
       "status": 200,
@@ -1320,7 +1320,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1346,7 +1346,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1372,7 +1372,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1398,7 +1398,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1424,7 +1424,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1450,7 +1450,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1476,7 +1476,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1502,7 +1502,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1528,7 +1528,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1554,7 +1554,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1580,7 +1580,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "14 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1606,7 +1606,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1632,7 +1632,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1658,7 +1658,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1684,7 +1684,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1710,7 +1710,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1736,7 +1736,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1762,7 +1762,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1788,7 +1788,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "14 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 14 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1814,7 +1814,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1840,7 +1840,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 8 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 8, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1866,7 +1866,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1892,7 +1892,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -1918,7 +1918,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -1944,7 +1944,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1970,7 +1970,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -1996,7 +1996,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -2022,7 +2022,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2048,7 +2048,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2074,7 +2074,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2100,7 +2100,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -2126,7 +2126,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2152,7 +2152,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2178,7 +2178,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2204,7 +2204,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2230,7 +2230,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2256,7 +2256,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2282,7 +2282,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2308,7 +2308,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2334,7 +2334,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2360,7 +2360,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2386,7 +2386,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2412,7 +2412,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2438,7 +2438,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2464,7 +2464,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2490,7 +2490,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2516,7 +2516,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2542,7 +2542,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2568,7 +2568,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2594,7 +2594,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2620,7 +2620,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2646,7 +2646,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2672,7 +2672,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",
@@ -2698,7 +2698,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2724,7 +2724,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 11 facility signals (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2750,7 +2750,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 13 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2776,7 +2776,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2802,7 +2802,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -2828,7 +2828,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 12 facility signals (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Pass",
@@ -2854,7 +2854,7 @@
         "facilities": {
           "result": "Fail",
           "pass": false,
-          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+          "evidence": "Facilities need improvement. We found 9 facility signals (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash) and facilities section present = true. Recommended actions: list more specific facilities on the main page (currently 9, target at least 10)."
         },
         "imagery": {
           "result": "Fail",
@@ -2880,7 +2880,7 @@
         "facilities": {
           "result": "Pass",
           "pass": true,
-          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+          "evidence": "Facilities are clearly described. We found 10 facility signals (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt), and the page includes a clear facilities/amenities section."
         },
         "imagery": {
           "result": "Fail",

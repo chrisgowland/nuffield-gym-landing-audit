@@ -136,6 +136,23 @@ function buildImageryEvidence(meaningfulImagesCount, modernFormatCount, lazyCoun
   return `Imagery needs improvement: ${meaningfulImagesCount} relevant images found, ${modernFormatCount} modern-format assets, ${lazyCount} lazy-loaded images. Recommended actions: ${improvements.join('; ')}.`;
 }
 
+function buildFacilitiesEvidence(facilitiesFound, hasFacilitiesSection, pass) {
+  if (pass) {
+    return `Facilities are clearly described. We found ${facilitiesFound.length} facility signals (${facilitiesFound.slice(0, 8).join(', ')}), and the page includes a clear facilities/amenities section.`;
+  }
+
+  const improvements = [];
+  if (facilitiesFound.length < 10) {
+    improvements.push(`list more specific facilities on the main page (currently ${facilitiesFound.length}, target at least 10)`);
+  }
+  if (!hasFacilitiesSection) {
+    improvements.push('add a dedicated "Facilities" or "What is available" section above the fold');
+  }
+
+  const sample = facilitiesFound.length ? facilitiesFound.slice(0, 8).join(', ') : 'none detected';
+  return `Facilities need improvement. We found ${facilitiesFound.length} facility signals (${sample}) and facilities section present = ${hasFacilitiesSection}. Recommended actions: ${improvements.join('; ')}.`;
+}
+
 function assessPage(url, html) {
   const $ = cheerio.load(html);
 
@@ -231,7 +248,7 @@ function assessPage(url, html) {
     criteria: {
       facilities: criterion(
         facilitiesPass,
-        `${facilitiesFound.length} facility terms found (${facilitiesFound.slice(0, 8).join(', ') || 'none'}); facilities section=${hasFacilitiesSection}`
+        buildFacilitiesEvidence(facilitiesFound, hasFacilitiesSection, facilitiesPass)
       ),
       imagery: criterion(
         imageryPass,
