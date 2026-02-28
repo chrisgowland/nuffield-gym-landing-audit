@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-28T16:34:03.420Z",
+  "generatedAt": "2026-02-28T16:40:56.482Z",
   "source": "https://www.nuffieldhealth.com/sitemap_gyms.xml",
   "candidateCount": 111,
   "includedCount": 111,
@@ -25,7 +25,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -53,7 +53,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -81,7 +81,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -109,7 +109,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -137,7 +137,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 5 (target 8+). Lazy-load: Good (5 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -165,7 +165,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -193,7 +193,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -221,7 +221,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -249,7 +249,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -277,7 +277,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -305,7 +305,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -333,7 +333,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -361,7 +361,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -389,7 +389,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -417,7 +417,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -445,7 +445,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -473,7 +473,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -501,7 +501,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -529,7 +529,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -557,7 +557,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -585,7 +585,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 8 (target 8+). Lazy-load: Good (8 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -613,7 +613,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -641,7 +641,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -669,7 +669,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -697,7 +697,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -725,7 +725,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 15 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -753,7 +753,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -781,7 +781,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -809,7 +809,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -837,7 +837,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -865,7 +865,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -893,7 +893,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -921,7 +921,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -949,7 +949,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -977,7 +977,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1005,7 +1005,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1033,7 +1033,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 5 (target 8+). Lazy-load: Good (5 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1061,7 +1061,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1089,7 +1089,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1117,7 +1117,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1145,7 +1145,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1173,7 +1173,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1201,7 +1201,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1229,7 +1229,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1257,7 +1257,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1285,7 +1285,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1313,7 +1313,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1341,7 +1341,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1369,7 +1369,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1397,7 +1397,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1425,7 +1425,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1453,7 +1453,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1481,7 +1481,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1509,7 +1509,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1537,7 +1537,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1565,7 +1565,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1593,7 +1593,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1621,7 +1621,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1649,7 +1649,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1677,7 +1677,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3)."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Needs work (0 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3)."
         }
       },
       "clubDescription": {
@@ -1705,7 +1705,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1733,7 +1733,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1761,7 +1761,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1789,7 +1789,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1817,7 +1817,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 5 (target 8+). Lazy-load: Good (5 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1845,7 +1845,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1873,7 +1873,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1901,7 +1901,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1929,7 +1929,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 16 (target 8+). Lazy-load: Good (10 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -1957,7 +1957,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -1985,7 +1985,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2013,7 +2013,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2041,7 +2041,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2069,7 +2069,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2097,7 +2097,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2125,7 +2125,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2153,7 +2153,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 5 (target 8+). Lazy-load: Good (5 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2181,7 +2181,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2209,7 +2209,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2237,7 +2237,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2265,7 +2265,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2293,7 +2293,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2321,7 +2321,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2349,7 +2349,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2377,7 +2377,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2405,7 +2405,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2433,7 +2433,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2461,7 +2461,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2489,7 +2489,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2517,7 +2517,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2545,7 +2545,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2573,7 +2573,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2601,7 +2601,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2629,7 +2629,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2657,7 +2657,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2685,7 +2685,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2713,7 +2713,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2741,7 +2741,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2769,7 +2769,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2797,7 +2797,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2825,7 +2825,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2853,7 +2853,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2881,7 +2881,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -2909,7 +2909,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 12 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2937,7 +2937,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2965,7 +2965,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -2993,7 +2993,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -3021,7 +3021,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 6 (target 8+). Lazy-load: Good (6 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -3049,7 +3049,7 @@
         "imagery": {
           "result": "Pass",
           "pass": true,
-          "evidence": "Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images)."
+          "evidence": "Imagery looks strong. Relevant images: 13 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target)."
         }
       },
       "clubDescription": {
@@ -3077,7 +3077,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {
@@ -3105,7 +3105,7 @@
         "imagery": {
           "result": "Fail",
           "pass": false,
-          "evidence": "Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
+          "evidence": "Imagery needs improvement. Relevant images: 7 (target 8+). Lazy-load: Good (7 of 3 target). Modern format: Needs work (0 of 1 target). Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF."
         }
       },
       "clubDescription": {

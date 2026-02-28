@@ -103,8 +103,11 @@ function criterion(pass, evidence) {
 }
 
 function buildImageryEvidence(meaningfulImagesCount, modernFormatCount, lazyCount, pass) {
+  const lazyStatus = lazyCount >= 3 ? 'Good' : 'Needs work';
+  const modernStatus = modernFormatCount >= 1 ? 'Good' : 'Needs work';
+
   if (pass) {
-    return `Imagery looks strong: ${meaningfulImagesCount} relevant images detected, with modern delivery signals (${modernFormatCount} modern-format assets and ${lazyCount} lazy-loaded images).`;
+    return `Imagery looks strong. Relevant images: ${meaningfulImagesCount} (target 8+). Lazy-load: ${lazyStatus} (${lazyCount} of 3 target). Modern format: ${modernStatus} (${modernFormatCount} of 1 target).`;
   }
 
   const improvements = [];
@@ -118,7 +121,7 @@ function buildImageryEvidence(meaningfulImagesCount, modernFormatCount, lazyCoun
     improvements.push(`enable lazy-loading on more non-critical images (currently ${lazyCount}, target at least 3)`);
   }
 
-  return `Imagery needs improvement: ${meaningfulImagesCount} relevant images found, ${modernFormatCount} modern-format assets, ${lazyCount} lazy-loaded images. Recommended actions: ${improvements.join('; ')}.`;
+  return `Imagery needs improvement. Relevant images: ${meaningfulImagesCount} (target 8+). Lazy-load: ${lazyStatus} (${lazyCount} of 3 target). Modern format: ${modernStatus} (${modernFormatCount} of 1 target). Recommended actions: ${improvements.join('; ')}.`;
 }
 
 function buildCoreFacilitiesEvidence(foundLabels, pass) {
