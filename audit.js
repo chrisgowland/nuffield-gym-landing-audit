@@ -10,6 +10,8 @@ const SITEMAP_URL = 'https://www.nuffieldhealth.com/sitemap_gyms.xml';
 const SITE_BASE = 'https://www.nuffieldhealth.com';
 
 const CONCURRENCY = 8;
+const GOOGLE_CONCURRENCY = 3;
+const GOOGLE_PLACES_API_KEY = process.env.GOOGLE_PLACES_API_KEY || '';
 
 const NON_GYM_SLUGS = new Set([
   'membership',
@@ -66,6 +68,18 @@ async function fetchText(url) {
   });
   const text = await res.text();
   return { status: res.status, text, url: res.url };
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: {
+      'user-agent': 'NuffieldGymAuditBot/1.0 (+internal assessment)'
+    }
+  });
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} for ${url}`);
+  }
+  return res.json();
 }
 
 function parseLocs(xmlText) {
@@ -182,6 +196,107 @@ function assessClubDescription(h1, metaDescription, bodyText) {
   };
 }
 
+function normalizeGoogleAssessment(data) {
+  if (!data || data.status !== 'ok') {
+    return {
+      reviewSummary: data?.message || 'Google data unavailable.',
+      profileAssessment: data?.message || 'Google data unavailable.'
+    };
+  }
+
+  const d = data.details;
+  const rating = d.rating != null ? d.rating : 'N/A';
+  const reviews = d.user_ratings_total != null ? d.user_ratings_total : 0;
+  const photoCount = d.photos_count || 0;
+  const hasHours = d.has_hours;
+  const hasWebsite = d.has_website;
+  const hasPhone = d.has_phone;
+  const businessStatus = d.business_status || 'UNKNOWN';
+
+  const claimedScore = Number(hasHours) + Number(hasWebsite) + Number(hasPhone) + Number(photoCount >= 5) + Number(reviews >= 20);
+  const claimedInference = claimedScore >= 3 ? 'Likely claimed (inferred)' : 'Possibly unclaimed/incomplete (inferred)';
+
+  const qualityFlags = [
+    `Opening hours: ${hasHours ? 'Present' : 'Missing'}`,
+    `Photos: ${photoCount >= 5 ? `Good (${photoCount})` : `Needs work (${photoCount})`}`,
+    `Website: ${hasWebsite ? 'Present' : 'Missing'}`,
+    `Phone: ${hasPhone ? 'Present' : 'Missing'}`,
+    `Business status: ${businessStatus}`,
+    `Claimed status: ${claimedInference}`
+  ];
+
+  const improvements = [];
+  if (!hasHours) improvements.push('add/verify opening hours');
+  if (photoCount < 5) improvements.push('add more high-quality profile and interior photos');
+  if (!hasWebsite) improvements.push('link the official gym landing page as website');
+  if (!hasPhone) improvements.push('add a direct phone number');
+
+  const reviewSummary = `Google rating: ${rating} from ${reviews} reviews.`;
+  const profileAssessment = `${qualityFlags.join(' | ')}${improvements.length ? `. Recommended actions: ${improvements.join('; ')}.` : '.'}`;
+
+  return { reviewSummary, profileAssessment };
+}
+
+async function fetchGoogleDataForGym(gym) {
+  if (!GOOGLE_PLACES_API_KEY) {
+    return {
+      status: 'not_configured',
+      message: 'Google data unavailable: set GOOGLE_PLACES_API_KEY to enable Places lookup.'
+    };
+  }
+
+  const query = encodeURIComponent(`${gym.gymName} Nuffield Health UK`);
+  const textSearchUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${query}&key=${GOOGLE_PLACES_API_KEY}`;
+
+  try {
+    const search = await fetchJson(textSearchUrl);
+    const results = Array.isArray(search.results) ? search.results : [];
+    if (!results.length) {
+      return { status: 'not_found', message: 'Google profile not found for this gym.' };
+    }
+
+    const best = results.find((r) => (r.name || '').toLowerCase().includes('nuffield')) || results[0];
+    if (!best.place_id) {
+      return { status: 'not_found', message: 'Google place ID not found for this gym.' };
+    }
+
+    const fields = [
+      'name',
+      'formatted_address',
+      'rating',
+      'user_ratings_total',
+      'business_status',
+      'opening_hours',
+      'photos',
+      'website',
+      'formatted_phone_number',
+      'url'
+    ].join(',');
+    const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${encodeURIComponent(best.place_id)}&fields=${fields}&key=${GOOGLE_PLACES_API_KEY}`;
+    const detailsResponse = await fetchJson(detailsUrl);
+    const details = detailsResponse.result || {};
+
+    return {
+      status: 'ok',
+      placeId: best.place_id,
+      details: {
+        name: details.name || best.name || '',
+        formatted_address: details.formatted_address || '',
+        rating: details.rating,
+        user_ratings_total: details.user_ratings_total,
+        business_status: details.business_status || best.business_status || 'UNKNOWN',
+        has_hours: Boolean(details.opening_hours && Array.isArray(details.opening_hours.weekday_text) && details.opening_hours.weekday_text.length),
+        photos_count: Array.isArray(details.photos) ? details.photos.length : 0,
+        has_website: Boolean(details.website),
+        has_phone: Boolean(details.formatted_phone_number),
+        google_maps_url: details.url || ''
+      }
+    };
+  } catch (err) {
+    return { status: 'error', message: `Google lookup failed: ${String(err.message || err)}` };
+  }
+}
+
 function assessPage(url, html) {
   const $ = cheerio.load(html);
 
@@ -296,7 +411,9 @@ function assessPage(url, html) {
     joinRouteEvidence: joinRoutePresent
       ? 'Membership options/join route detected.'
       : 'No clear membership options/join route found on this page.',
-    fixPriority
+    fixPriority,
+    googleReview: 'Pending Google lookup...',
+    googleProfileAssessment: 'Pending Google lookup...'
   };
 }
 
@@ -328,6 +445,8 @@ function generateHtml(report) {
   const imageryFail = total - imageryPass;
   const joinMissing = report.summary.joinRouteMissing || 0;
   const highPriority = report.gyms.filter((g) => g.fixPriority === 'High').length;
+  const googlePopulated = report.summary.googlePopulated || 0;
+  const googleNotPopulated = total - googlePopulated;
 
   const rows = report.gyms
     .map((g) => {
@@ -342,6 +461,8 @@ function generateHtml(report) {
 <td class="small">${g.criteria.imagery.evidence}</td>
 <td><div class="assessment-box"><b>${g.clubDescription.tone}</b><br>${g.clubDescription.text}</div></td>
 <td class="small">${g.joinRouteEvidence}</td>
+<td class="small">${g.googleReview}</td>
+<td class="small">${g.googleProfileAssessment}</td>
 </tr>`;
     })
     .join('\n');
@@ -381,7 +502,7 @@ main { padding: 18px 20px 30px; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
 select { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 160px; background: #fff; }
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #d8e3ef; border-radius: 8px; background: #fff; }
-table { width: 100%; min-width: 1300px; border-collapse: collapse; background: #fff; }
+table { width: 100%; min-width: 1700px; border-collapse: collapse; background: #fff; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vertical-align: top; }
 th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .filter-row th { position: static; background: #f6fbf7; }
@@ -423,6 +544,7 @@ a { color: var(--nh-green-900); }
       <div class="card"><div class="label">Imagery Quality</div><b>${imageryPass} Pass</b><div class="detail">${imageryFail} Fail</div></div>
       <div class="card"><div class="label">Join Route Coverage</div><b>${total - joinMissing} Present</b><div class="detail">${joinMissing} Missing</div></div>
       <div class="card"><div class="label">High Priority Fixes</div><b>${highPriority}</b><div class="detail">Pages needing urgent action</div></div>
+      <div class="card"><div class="label">Google Data Coverage</div><b>${googlePopulated} Populated</b><div class="detail">${googleNotPopulated} Pending/Unavailable</div></div>
     </div>
   </div>
 </header>
@@ -444,6 +566,8 @@ a { color: var(--nh-green-900); }
         <th>Imagery Evidence</th>
         <th>Club Description Assessment</th>
         <th>Join Route Evidence</th>
+        <th>Google Review</th>
+        <th>Google Profile Assessment</th>
       </tr>
       <tr class="filter-row">
         <th><input data-filter-col="0" placeholder="Filter gym" /></th>
@@ -480,6 +604,8 @@ a { color: var(--nh-green-900); }
         <th><input data-filter-col="6" placeholder="Filter imagery evidence" /></th>
         <th><input data-filter-col="7" placeholder="Filter description assessment" /></th>
         <th><input data-filter-col="8" placeholder="Filter join route evidence" /></th>
+        <th><input data-filter-col="9" placeholder="Filter google review" /></th>
+        <th><input data-filter-col="10" placeholder="Filter google profile assessment" /></th>
       </tr>
     </thead>
     <tbody>${rows}</tbody>
@@ -570,6 +696,32 @@ async function main() {
   const gyms = assessed.filter((r) => r && !r.error && !r.skipped && r.isLikelyGymPage);
   gyms.sort((a, b) => a.gymName.localeCompare(b.gymName));
 
+  if (GOOGLE_PLACES_API_KEY) {
+    console.log('Google API key detected. Enriching gyms with Google Places data...');
+    await runPool(
+      gyms,
+      async (gym) => {
+        const google = await fetchGoogleDataForGym(gym);
+        const normalized = normalizeGoogleAssessment(google);
+        gym.google = google;
+        gym.googleReview = normalized.reviewSummary;
+        gym.googleProfileAssessment = normalized.profileAssessment;
+        return gym;
+      },
+      GOOGLE_CONCURRENCY
+    );
+  } else {
+    for (const gym of gyms) {
+      const normalized = normalizeGoogleAssessment({
+        status: 'not_configured',
+        message: 'Google data unavailable: set GOOGLE_PLACES_API_KEY to enable Places lookup.'
+      });
+      gym.google = { status: 'not_configured' };
+      gym.googleReview = normalized.reviewSummary;
+      gym.googleProfileAssessment = normalized.profileAssessment;
+    }
+  }
+
   const report = {
     generatedAt: new Date().toISOString(),
     source: SITEMAP_URL,
@@ -579,7 +731,8 @@ async function main() {
       total: gyms.length,
       coreFacilitiesPass: gyms.filter((g) => g.criteria.coreFacilities.pass).length,
       imageryPass: gyms.filter((g) => g.criteria.imagery.pass).length,
-      joinRouteMissing: gyms.filter((g) => !g.joinRoutePresent).length
+      joinRouteMissing: gyms.filter((g) => !g.joinRoutePresent).length,
+      googlePopulated: gyms.filter((g) => g.google && g.google.status === 'ok').length
     },
     gyms
   };
@@ -597,7 +750,9 @@ async function main() {
     'imageryEvidence',
     'clubDescriptionTone',
     'clubDescriptionAssessment',
-    'joinRouteEvidence'
+    'joinRouteEvidence',
+    'googleReview',
+    'googleProfileAssessment'
   ].join(',');
   const csvRows = gyms.map((g) => [
     `"${g.gymName.replaceAll('"', '""')}"`,
@@ -610,7 +765,9 @@ async function main() {
     `"${g.criteria.imagery.evidence.replaceAll('"', '""')}"`,
     `"${g.clubDescription.tone.replaceAll('"', '""')}"`,
     `"${g.clubDescription.text.replaceAll('"', '""')}"`,
-    `"${g.joinRouteEvidence.replaceAll('"', '""')}"`
+    `"${g.joinRouteEvidence.replaceAll('"', '""')}"`,
+    `"${(g.googleReview || '').replaceAll('"', '""')}"`,
+    `"${(g.googleProfileAssessment || '').replaceAll('"', '""')}"`
   ].join(','));
   fs.writeFileSync(path.join(DATA_DIR, 'audit-report.csv'), [csvHeader, ...csvRows].join('\n'));
 

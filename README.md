@@ -32,6 +32,18 @@ npm install
 npm run audit
 ```
 
+### Optional: Google profile enrichment
+
+To populate Google review/profile columns, set a Google Places API key first:
+
+```bash
+# PowerShell
+$env:GOOGLE_PLACES_API_KEY="your_api_key_here"
+npm run audit
+```
+
+Without this key, Google columns are shown as unavailable.
+
 ## Preview the website
 
 ```bash
