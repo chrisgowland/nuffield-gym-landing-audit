@@ -26,6 +26,8 @@ h1 { margin: 0 0 8px; font-size: 1.8rem; }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 16px 0 8px; }
 .card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green-700); border-radius: 10px; padding: 14px; }
 .card b { font-size: 1.5rem; color: var(--nh-green-900); }
+.card .label { font-size: 0.88rem; color: #2c4c37; font-weight: 600; margin-bottom: 4px; }
+.card .detail { font-size: 0.82rem; color: #486351; margin-top: 4px; }
 main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
@@ -51,10 +53,11 @@ a { color: var(--nh-green-900); }
     <h1>Nuffield Health Gym Landing Page Audit</h1>
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
-      <div class="card"><div>Pages assessed</div><b>111</b></div>
-      <div class="card"><div>Core facilities pass</div><b>108</b></div>
-      <div class="card"><div>Imagery pass</div><b>46</b></div>
-      <div class="card"><div>Join route missing</div><b>1</b></div>
+      <div class="card"><div class="label">Gym Pages Reviewed</div><b>111</b><div class="detail">Total gym landing pages in scope</div></div>
+      <div class="card"><div class="label">Core Facilities</div><b>108 Pass</b><div class="detail">3 Fail</div></div>
+      <div class="card"><div class="label">Imagery Quality</div><b>46 Pass</b><div class="detail">65 Fail</div></div>
+      <div class="card"><div class="label">Join Route Coverage</div><b>110 Present</b><div class="detail">1 Missing</div></div>
+      <div class="card"><div class="label">High Priority Fixes</div><b>3</b><div class="detail">Pages needing urgent action</div></div>
     </div>
   </div>
 </header>
@@ -1411,7 +1414,7 @@ a { color: var(--nh-green-900); }
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
-  <div>Generated: 2026-02-28T16:14:12.650Z</div>
+  <div>Generated: 2026-02-28T16:34:03.420Z</div>
 </footer>
 <script>
 const search = document.getElementById('search');

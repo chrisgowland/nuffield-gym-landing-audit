@@ -318,6 +318,14 @@ async function runPool(items, worker, concurrency) {
 }
 
 function generateHtml(report) {
+  const total = report.summary.total || 0;
+  const corePass = report.summary.coreFacilitiesPass || 0;
+  const coreFail = total - corePass;
+  const imageryPass = report.summary.imageryPass || 0;
+  const imageryFail = total - imageryPass;
+  const joinMissing = report.summary.joinRouteMissing || 0;
+  const highPriority = report.gyms.filter((g) => g.fixPriority === 'High').length;
+
   const rows = report.gyms
     .map((g) => {
       const pf = (v) => `<span class="badge ${v.pass ? 'pass' : 'fail'}">${v.result}</span>`;
@@ -363,6 +371,8 @@ h1 { margin: 0 0 8px; font-size: 1.8rem; }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 16px 0 8px; }
 .card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green-700); border-radius: 10px; padding: 14px; }
 .card b { font-size: 1.5rem; color: var(--nh-green-900); }
+.card .label { font-size: 0.88rem; color: #2c4c37; font-weight: 600; margin-bottom: 4px; }
+.card .detail { font-size: 0.82rem; color: #486351; margin-top: 4px; }
 main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
@@ -388,10 +398,11 @@ a { color: var(--nh-green-900); }
     <h1>Nuffield Health Gym Landing Page Audit</h1>
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
-      <div class="card"><div>Pages assessed</div><b>${report.summary.total}</b></div>
-      <div class="card"><div>Core facilities pass</div><b>${report.summary.coreFacilitiesPass}</b></div>
-      <div class="card"><div>Imagery pass</div><b>${report.summary.imageryPass}</b></div>
-      <div class="card"><div>Join route missing</div><b>${report.summary.joinRouteMissing}</b></div>
+      <div class="card"><div class="label">Gym Pages Reviewed</div><b>${total}</b><div class="detail">Total gym landing pages in scope</div></div>
+      <div class="card"><div class="label">Core Facilities</div><b>${corePass} Pass</b><div class="detail">${coreFail} Fail</div></div>
+      <div class="card"><div class="label">Imagery Quality</div><b>${imageryPass} Pass</b><div class="detail">${imageryFail} Fail</div></div>
+      <div class="card"><div class="label">Join Route Coverage</div><b>${total - joinMissing} Present</b><div class="detail">${joinMissing} Missing</div></div>
+      <div class="card"><div class="label">High Priority Fixes</div><b>${highPriority}</b><div class="detail">Pages needing urgent action</div></div>
     </div>
   </div>
 </header>
