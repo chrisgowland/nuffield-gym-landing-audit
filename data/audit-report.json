@@ -1,0 +1,2900 @@
+{
+  "generatedAt": "2026-02-28T15:29:22.924Z",
+  "source": "https://www.nuffieldhealth.com/sitemap_gyms.xml",
+  "candidateCount": 111,
+  "includedCount": 111,
+  "summary": {
+    "total": 111,
+    "facilitiesPass": 93,
+    "imageryPass": 46,
+    "ctaPass": 56
+  },
+  "gyms": [
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/aberdeen",
+      "slug": "aberdeen",
+      "gymName": "Aberdeen Fitness & Wellbeing Gym\n                      Aberdeen",
+      "title": "Gym in Aberdeen, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 34
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/aylesbury",
+      "slug": "aylesbury",
+      "gymName": "Aylesbury Fitness & Wellbeing Gym\n                      Aylesbury",
+      "title": "Gym in Aylesbury, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 110
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/baltimore-wharf",
+      "slug": "baltimore-wharf",
+      "gymName": "Baltimore Wharf Fitness & Wellbeing Gym\n                      Baltimore Wharf",
+      "title": "Gym in Canary Wharf, Baltimore Wharf | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "8 facility terms found (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 8
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/barbican",
+      "slug": "barbican",
+      "gymName": "Barbican Fitness and Wellbeing Centre\n                      Barbican",
+      "title": "Gym in Barbican, London | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 92
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/battersea",
+      "slug": "battersea",
+      "gymName": "Battersea Fitness & Wellbeing Gym\n                      Battersea",
+      "title": "Gym in Battersea, London, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=5; modern formats=0; lazy-loaded=5"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 26
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/birmingham-central",
+      "slug": "birmingham-central",
+      "gymName": "Birmingham Central Fitness & Wellbeing Gym\n                      Birmingham Central",
+      "title": "Gym in Edgbaston, Birmingham, B16 8SP | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 27
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/birmingham-rubery",
+      "slug": "birmingham-rubery",
+      "gymName": "Birmingham Rubery Fitness & Wellbeing Gym\n                      Birmingham Rubery",
+      "title": "Birmingham Gym, Rubery, B45 9FN | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 61
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bishops-stortford",
+      "slug": "bishops-stortford",
+      "gymName": "Bishop's Stortford Fitness & Wellbeing Gym\n                      Bishop's Stortford",
+      "title": "Gym in Bishop's Stortford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 47
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bloomsbury",
+      "slug": "bloomsbury",
+      "gymName": "Bloomsbury Fitness & Wellbeing Gym\n                      Bloomsbury",
+      "title": "Gym in Bloomsbury, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 18
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bolton",
+      "slug": "bolton",
+      "gymName": "Bolton Fitness & Wellbeing Gym\n                      Bolton",
+      "title": "Gym in Bolton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 70
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bridgend",
+      "slug": "bridgend",
+      "gymName": "Bridgend Fitness & Wellbeing Gym\n                      Bridgend",
+      "title": "Gym in Bridgend, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 90
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bristol",
+      "slug": "bristol",
+      "gymName": "Bristol Fitness & Wellbeing Gym\n                      Bristol",
+      "title": "Gym in Bristol (Clifton), Fitness & Wellbeing BS81QS | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 54
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bristol-north",
+      "slug": "bristol-north",
+      "gymName": "Bristol North Gym, Stoke Gifford\n                      Bristol North",
+      "title": "Bristol North (Stoke Gifford) Gym | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 21
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/bromley",
+      "slug": "bromley",
+      "gymName": "Bromley Fitness & Wellbeing Gym\n                      Bromley",
+      "title": "Gym in Bromley, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 19
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/brondesbury-park",
+      "slug": "brondesbury-park",
+      "gymName": "Brondesbury Park Fitness & Wellbeing Gym\n                      Brondesbury Park",
+      "title": "Gym in Brondesbury Park, Willesden | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 65
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/cambridge",
+      "slug": "cambridge",
+      "gymName": "Cambridge Fitness & Wellbeing Gym\n                      Cambridge",
+      "title": "Gym in Cambridge, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 82
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/cannock",
+      "slug": "cannock",
+      "gymName": "Cannock Fitness & Wellbeing Gym\n                      Cannock",
+      "title": "Gym in Cannock, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 22
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/cheam",
+      "slug": "cheam",
+      "gymName": "Cheam Fitness & Wellbeing Gym\n                      Cheam",
+      "title": "Gym in Cheam, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 14
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chelmsford",
+      "slug": "chelmsford",
+      "gymName": "Chelmsford Fitness & Wellbeing Gym\n                      Chelmsford",
+      "title": "Gym in Chelmsford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 89
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chester",
+      "slug": "chester",
+      "gymName": "Chester Fitness & Wellbeing Gym\n                      Chester",
+      "title": "Gym in Chester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 13
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chesterfield",
+      "slug": "chesterfield",
+      "gymName": "Chesterfield Fitness & Wellbeing Gym\n                      Chesterfield",
+      "title": "Gym in Chesterfield, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=8; modern formats=0; lazy-loaded=8"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 35
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chichester",
+      "slug": "chichester",
+      "gymName": "Chichester Fitness & Wellbeing Gym\n                      Chichester",
+      "title": "Gym in Chichester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 5
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chigwell",
+      "slug": "chigwell",
+      "gymName": "Chigwell Fitness & Wellbeing Gym\n                      Chigwell",
+      "title": "Gym in Chigwell, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 106
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chingford",
+      "slug": "chingford",
+      "gymName": "Chingford Fitness & Wellbeing Gym\n                      Chingford",
+      "title": "Gym in Chingford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 43
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/chislehurst",
+      "slug": "chislehurst",
+      "gymName": "Chislehurst Fitness & Wellbeing Gym\n                      Chislehurst",
+      "title": "Gym in Chislehurst, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 10
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/city",
+      "slug": "city",
+      "gymName": "City Fitness & Wellbeing Gym\n                      City",
+      "title": "Gym in City of London, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=15; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 1
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/cottingley",
+      "slug": "cottingley",
+      "gymName": "Cottingley Fitness & Wellbeing Gym\n                      Cottingley",
+      "title": "Gym in Cottingley, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 105
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/covent-garden",
+      "slug": "covent-garden",
+      "gymName": "Covent Garden Fitness & Wellbeing Gym\n                      Covent Garden",
+      "title": "Gym in Covent Garden, London, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 111
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/crawley",
+      "slug": "crawley",
+      "gymName": "Crawley Fitness & Wellbeing Gym\n                      Crawley",
+      "title": "Gym in Crawley, Fitness & Wellbeing, RH104ST | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 95
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/croydon-central",
+      "slug": "croydon-central",
+      "gymName": "Croydon Central Fitness & Wellbeing Gym\n                      Croydon Central",
+      "title": "Gym in Croydon Central, Fitness & Wellbeing, CR0 1RJ | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 48
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/croydon",
+      "slug": "croydon",
+      "gymName": "Croydon Fitness & Wellbeing Gym\n                      Croydon",
+      "title": "Gym in Croydon, Fitness & Wellbeing, CR0 4RJ | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 53
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/cwmbran",
+      "slug": "cwmbran",
+      "gymName": "Cwmbran Fitness & Wellbeing Gym\n                      Cwmbran",
+      "title": "Gym in Cwmbran, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 46
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/derby",
+      "slug": "derby",
+      "gymName": "Derby Fitness & Wellbeing Gym\n                      Derby",
+      "title": "Gym in Derby, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 109
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/didsbury",
+      "slug": "didsbury",
+      "gymName": "Didsbury Fitness & Wellbeing Gym\n                      Didsbury",
+      "title": "Gym in Didsbury, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 100
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/doncaster",
+      "slug": "doncaster",
+      "gymName": "Doncaster Fitness & Wellbeing Gym\n                      Doncaster",
+      "title": "Gym in Doncaster, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 4
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/ealing",
+      "slug": "ealing",
+      "gymName": "Ealing Fitness & Wellbeing Gym\n                      Ealing",
+      "title": "Gym in Ealing, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 32
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/east-kilbride",
+      "slug": "east-kilbride",
+      "gymName": "East Kilbride Fitness & Wellbeing Gym\n                      East Kilbride",
+      "title": "Gym in East Kilbride, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=5; modern formats=0; lazy-loaded=5"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 40
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/edinburgh",
+      "slug": "edinburgh",
+      "gymName": "Edinburgh Fitness & Wellbeing Gym\n                      Edinburgh",
+      "title": "Gym in Edinburgh, Fitness & Wellbeing, EH141RL | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 39
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/edinburgh-fountain-park",
+      "slug": "edinburgh-fountain-park",
+      "gymName": "Edinburgh Fountain Park Fitness & Wellbeing Gym\n                      Edinburgh Fountain Park",
+      "title": "Gym in Fountainbridge, Edinburgh EH11 1AF | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 41
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/edinburgh-omni",
+      "slug": "edinburgh-omni",
+      "gymName": "Edinburgh Omni Fitness & Wellbeing Gym\n                      Edinburgh Omni",
+      "title": "Gym in Edinburgh Centre, Omni Centre, EH13AU | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 62
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/enfield",
+      "slug": "enfield",
+      "gymName": "Enfield Fitness & Wellbeing Gym\n                      Enfield",
+      "title": "Gym in Enfield, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 16
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/farnborough",
+      "slug": "farnborough",
+      "gymName": "Farnborough Fitness & Wellbeing Gym\n                      Farnborough",
+      "title": "Gym in Farnborough, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 79
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/farnham",
+      "slug": "farnham",
+      "gymName": "Farnham Fitness & Wellbeing Gym\n                      Farnham",
+      "title": "Gym in Farnham, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 38
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/friern-barnet",
+      "slug": "friern-barnet",
+      "gymName": "Friern Barnet Fitness & Wellbeing Gym\n                      Friern Barnet",
+      "title": "Gym in Friern Barnet, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 72
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/fulham",
+      "slug": "fulham",
+      "gymName": "Fulham Fitness & Wellbeing Gym\n                      Fulham",
+      "title": "Gym in Fulham, London, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 81
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/glasgow-central",
+      "slug": "glasgow-central",
+      "gymName": "Glasgow Central Fitness & Wellbeing Gym\n                      Glasgow Central",
+      "title": "Gym in Glasgow, Fitness & Wellbeing, G3 8HB | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 64
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/glasgow-giffnock",
+      "slug": "glasgow-giffnock",
+      "gymName": "Glasgow Giffnock Fitness & Wellbeing Gym\n                      Glasgow Giffnock",
+      "title": "Gym in Glasgow Giffnock, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 71
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/glasgow-west-end",
+      "slug": "glasgow-west-end",
+      "gymName": "Glasgow West End Fitness & Wellbeing Club\n                      Glasgow West End",
+      "title": "Gym in Finnieston, Glasgow, G3 8AU | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 23
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/gloucester",
+      "slug": "gloucester",
+      "gymName": "Gloucester Fitness & Wellbeing Gym\n                      Gloucester",
+      "title": "Gym in Gloucester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 80
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/gosforth",
+      "slug": "gosforth",
+      "gymName": "Gosforth Fitness & Wellbeing Gym\n                      Gosforth",
+      "title": "Gym in Gosforth, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 9
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/guildford",
+      "slug": "guildford",
+      "gymName": "Guildford Fitness & Wellbeing Gym\n                      Guildford",
+      "title": "Gym in Guildford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 97
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/guiseley",
+      "slug": "guiseley",
+      "gymName": "Guiseley Fitness & Wellbeing Gym\n                      Guiseley",
+      "title": "Gyms in Guiseley, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 101
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/harrogate",
+      "slug": "harrogate",
+      "gymName": "Harrogate Fitness & Wellbeing Gym\n                      Harrogate",
+      "title": "Gym in Harrogate, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 84
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/hemel-hempstead",
+      "slug": "hemel-hempstead",
+      "gymName": "Hemel Hempstead Fitness & Wellbeing Gym\n                      Hemel Hempstead",
+      "title": "Gym in Hemel Hempstead, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 67
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/hendon",
+      "slug": "hendon",
+      "gymName": "Hendon Fitness & Wellbeing Gym\n                      Hendon",
+      "title": "Gym in Hendon, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 33
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/hertford",
+      "slug": "hertford",
+      "gymName": "Hertford Fitness & Wellbeing Gym\n                      Hertford",
+      "title": "Gym in Hertford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 56
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/hull",
+      "slug": "hull",
+      "gymName": "Hull Fitness & Wellbeing Gym\n                      Hull",
+      "title": "Gym in Hull, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 102
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/ilford",
+      "slug": "ilford",
+      "gymName": "Ilford Fitness & Wellbeing Gym\n                      Ilford",
+      "title": "Gym in Ilford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 28
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/islington",
+      "slug": "islington",
+      "gymName": "Islington Fitness & Wellbeing Gym\n                      Islington",
+      "title": "Gym in Islington, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 17
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/kents-hill-park",
+      "slug": "kents-hill-park",
+      "gymName": "Kents Hill Park",
+      "title": "Kents Hill Park Fitness and Wellbeing Centre, Milton Keynes | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=0"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=8; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 75
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/kingston",
+      "slug": "kingston",
+      "gymName": "Kingston Fitness & Wellbeing Gym\n                      Kingston",
+      "title": "Gym in Kingston upon Thames, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=11; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 31
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/leatherhead",
+      "slug": "leatherhead",
+      "gymName": "Leatherhead Fitness & Wellbeing Gym\n                      Leatherhead",
+      "title": "Gyms in Leatherhead, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 99
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/leeds",
+      "slug": "leeds",
+      "gymName": "Leeds Gym, The Light\n                      Leeds",
+      "title": "Gym in Leeds, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=9; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 57
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/leicester",
+      "slug": "leicester",
+      "gymName": "Leicester Fitness & Wellbeing Gym\n                      Leicester",
+      "title": "Gym in Leicester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 3
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/letchworth-garden-city",
+      "slug": "letchworth-garden-city",
+      "gymName": "Letchworth Garden City Fitness & Wellbeing Gym\n                      Letchworth Garden City",
+      "title": "Gym in Letchworth, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=5; modern formats=0; lazy-loaded=5"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 29
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/liverpool",
+      "slug": "liverpool",
+      "gymName": "Liverpool Fitness & Wellbeing Gym\n                      Liverpool",
+      "title": "Gym in Liverpool, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 74
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/manchester-printworks",
+      "slug": "manchester-printworks",
+      "gymName": "Manchester Printworks Fitness & Wellbeing Gym\n                      Manchester Printworks",
+      "title": "Gym in Manchester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 49
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/medway",
+      "slug": "medway",
+      "gymName": "Medway Fitness & Wellbeing Gym\n                      Medway",
+      "title": "Gym in Rochester, Medway Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 37
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/milngavie",
+      "slug": "milngavie",
+      "gymName": "Milngavie Fitness & Wellbeing Gym\n                      Milngavie",
+      "title": "Gym in Milngavie, Glasgow, G62 8HJ | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "14 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=16; modern formats=0; lazy-loaded=10"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 45
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/milton-keynes",
+      "slug": "milton-keynes",
+      "gymName": "Milton Keynes Fitness & Wellbeing Gym\n                      Milton Keynes",
+      "title": "Gym in Milton Keynes, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 42
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/moorgate",
+      "slug": "moorgate",
+      "gymName": "Moorgate Fitness & Wellbeing Gym\n                      Moorgate",
+      "title": "Gym in Moorgate, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 30
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/newbury",
+      "slug": "newbury",
+      "gymName": "Newbury Fitness & Wellbeing Gym\n                      Newbury",
+      "title": "Gym in Newbury, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=11; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 73
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/norbury",
+      "slug": "norbury",
+      "gymName": "Norbury Fitness & Wellbeing Gym\n                      Norbury",
+      "title": "Gym in Norbury, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 103
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/northampton",
+      "slug": "northampton",
+      "gymName": "Northampton Fitness & Wellbeing Gym\n                      Northampton",
+      "title": "Gym in Northampton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 25
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/norwich",
+      "slug": "norwich",
+      "gymName": "Norwich Fitness & Wellbeing Gym\n                      Norwich",
+      "title": "Gyms in Norwich, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 55
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/nottingham",
+      "slug": "nottingham",
+      "gymName": "Nottingham Gym, Mapperley\n                      Nottingham",
+      "title": "Nottingham (Mapperley) Gym | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 50
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/nuneaton",
+      "slug": "nuneaton",
+      "gymName": "Nuneaton Fitness & Wellbeing Gym\n                      Nuneaton",
+      "title": "Gym in Nuneaton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=5; modern formats=0; lazy-loaded=5"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=13; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 98
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/paddington",
+      "slug": "paddington",
+      "gymName": "Paddington Fitness & Wellbeing Gym\n                      Paddington",
+      "title": "Gym in Paddington, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 107
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/plymouth",
+      "slug": "plymouth",
+      "gymName": "Plymouth (Barbican) Fitness & Wellbeing Gym\n                      Plymouth",
+      "title": "Gym in Plymouth, Fitness & Wellbeing, PL4 0LG | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 108
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/devonshire-plymouth",
+      "slug": "devonshire-plymouth",
+      "gymName": "Plymouth (The Devonshire, Derriford) Health & Racquets Club\n                      Devonshire",
+      "title": "Gym in Plymouth, Health & Racquets Club, PL6 8BD | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=18; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 59
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/portsmouth",
+      "slug": "portsmouth",
+      "gymName": "Portsmouth Fitness & Wellbeing Gym\n                      Portsmouth",
+      "title": "Gym in Portsmouth, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 52
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/preston",
+      "slug": "preston",
+      "gymName": "Preston Fitness & Wellbeing Gym\n                      Preston",
+      "title": "Gym in Preston, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 96
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/reading",
+      "slug": "reading",
+      "gymName": "Reading Fitness & Wellbeing Gym\n                      Reading",
+      "title": "Gym in Reading, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 83
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/romford",
+      "slug": "romford",
+      "gymName": "Romford Fitness & Wellbeing Gym\n                      Romford",
+      "title": "Gym in Romford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 77
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/rugby",
+      "slug": "rugby",
+      "gymName": "Rugby Fitness & Wellbeing Gym\n                      Rugby",
+      "title": "Gym in Rugby, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 11
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/sheffield",
+      "slug": "sheffield",
+      "gymName": "Sheffield Fitness & Wellbeing Gym\n                      Sheffield",
+      "title": "Gym in Sheffield, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 85
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/shipley",
+      "slug": "shipley",
+      "gymName": "Shipley Fitness & Wellbeing Gym\n                      Shipley",
+      "title": "Gym in Shipley, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 91
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/shoreditch",
+      "slug": "shoreditch",
+      "gymName": "Shoreditch Fitness & Wellbeing Gym\n                      Shoreditch",
+      "title": "Gym in Shoreditch, London | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=15; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 2
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/st-albans",
+      "slug": "st-albans",
+      "gymName": "St Albans Fitness & Wellbeing Gym\n                      St Albans",
+      "title": "Gym in St Albans, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 36
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/stockley-park",
+      "slug": "stockley-park",
+      "gymName": "Stockley Park Fitness & Wellbeing Gym\n                      Stockley Park",
+      "title": "Gym in Uxbridge, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 78
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/stoke",
+      "slug": "stoke",
+      "gymName": "Stoke Fitness & Wellbeing Gym\n                      Stoke",
+      "title": "Gym in Stoke, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 76
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/stoke-poges",
+      "slug": "stoke-poges",
+      "gymName": "Stoke Poges Fitness & Wellbeing Gym\n                      Stoke Poges",
+      "title": "Gym in Stoke Poges, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 68
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/sunbury",
+      "slug": "sunbury",
+      "gymName": "Sunbury Fitness & Wellbeing Gym\n                      Sunbury",
+      "title": "Gym in Sunbury-on-Thames, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 94
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/surbiton",
+      "slug": "surbiton",
+      "gymName": "Surbiton Fitness & Wellbeing Gym\n                      Surbiton",
+      "title": "Gym in Surbiton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 66
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/swindon",
+      "slug": "swindon",
+      "gymName": "Swindon Fitness & Wellbeing Gym\n                      Swindon",
+      "title": "Gym in Swindon, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 60
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/taunton",
+      "slug": "taunton",
+      "gymName": "Taunton Fitness & Wellbeing Gym\n                      Taunton",
+      "title": "Gym in Taunton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 93
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/telford",
+      "slug": "telford",
+      "gymName": "Telford Fitness & Wellbeing Gym\n                      Telford",
+      "title": "Gym in Telford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=10; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 63
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/oxfordshire",
+      "slug": "oxfordshire",
+      "gymName": "The Oxfordshire Health & Racquets Club\n                      Oxfordshire",
+      "title": "Gym in Oxford, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 7
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/tunbridge-wells",
+      "slug": "tunbridge-wells",
+      "gymName": "Tunbridge Wells Fitness & Wellbeing Gym\n                      Tunbridge Wells",
+      "title": "Gym in Tunbridge Wells, Fitness & Wellbeing | Nuffield Health.",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 6
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/twickenham",
+      "slug": "twickenham",
+      "gymName": "Twickenham Fitness & Wellbeing Gym\n                      Twickenham",
+      "title": "Gyms in Twickenham, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 86
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wakefield",
+      "slug": "wakefield",
+      "gymName": "Wakefield Fitness & Wellbeing Gym\n                      Wakefield",
+      "title": "Gym in Wakefield, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 69
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wandsworth",
+      "slug": "wandsworth",
+      "gymName": "Wandsworth Fitness & Wellbeing Gym\n                      Wandsworth",
+      "title": "Gym in Wandsworth, Fitness & Wellbeing SW18 4SQ | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 44
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wandsworth-southside",
+      "slug": "wandsworth-southside",
+      "gymName": "Wandsworth Southside Fitness & Wellbeing Gym\n                      Wandsworth Southside",
+      "title": "Gym in Wandsworth Southside, SW18 4TQ | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 58
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/warwick",
+      "slug": "warwick",
+      "gymName": "Warwick Fitness & Wellbeing Gym\n                      Warwick",
+      "title": "Gym in Warwick, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=12; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 15
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/west-byfleet",
+      "slug": "west-byfleet",
+      "gymName": "West Byfleet Fitness & Wellbeing Gym\n                      West Byfleet",
+      "title": "Gym in West Byfleet, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=14; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 104
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/weston-super-mare",
+      "slug": "weston-super-mare",
+      "gymName": "Weston-super-Mare Fitness & Wellbeing Gym\n                      Weston-super-Mare",
+      "title": "Gym in Weston-super-Mare, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=12; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 88
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wimbledon",
+      "slug": "wimbledon",
+      "gymName": "Wimbledon Fitness & Wellbeing Gym\n                      Wimbledon",
+      "title": "Gym in Wimbledon SW19, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 12
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wokingham",
+      "slug": "wokingham",
+      "gymName": "Wokingham Fitness & Wellbeing Gym\n                      Wokingham",
+      "title": "Gym in Wokingham, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=6; modern formats=0; lazy-loaded=6"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=11; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 87
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/wolverhampton",
+      "slug": "wolverhampton",
+      "gymName": "Wolverhampton Fitness & Wellbeing Gym\n                      Wolverhampton",
+      "title": "Gym in Wolverhampton, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true"
+        },
+        "imagery": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "meaningful images=13; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 20
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/worcester",
+      "slug": "worcester",
+      "gymName": "Worcester Fitness & Wellbeing Gym\n                      Worcester",
+      "title": "Gym in Worcester, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "join CTA candidates=13; top-of-page CTA=true; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 24
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/gyms/yeovil",
+      "slug": "yeovil",
+      "gymName": "Yeovil Fitness & Wellbeing Gym\n                      Yeovil",
+      "title": "Gym in Yeovil, Fitness & Wellbeing | Nuffield Health",
+      "isLikelyGymPage": true,
+      "criteria": {
+        "facilities": {
+          "result": "Pass",
+          "pass": true,
+          "evidence": "10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true"
+        },
+        "imagery": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "meaningful images=7; modern formats=0; lazy-loaded=7"
+        },
+        "cta": {
+          "result": "Fail",
+          "pass": false,
+          "evidence": "join CTA candidates=12; top-of-page CTA=false; online-signal href=true"
+        }
+      },
+      "status": 200,
+      "index": 51
+    }
+  ]
+}
