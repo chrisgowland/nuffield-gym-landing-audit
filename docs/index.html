@@ -6,39 +6,45 @@
 <title>Nuffield Health Gym Landing Page Audit</title>
 <style>
 :root {
-  --nh-blue: #003a70;
-  --nh-green: #00a88f;
-  --nh-ink: #13243a;
-  --nh-bg: #f4f8fb;
+  --nh-green-900: #0f5f2f;
+  --nh-green-700: #1f8a43;
+  --nh-green-500: #49b657;
+  --nh-ink: #14311e;
+  --nh-bg: #f3faf4;
   --pass: #0a8f52;
   --fail: #c4372c;
 }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: var(--nh-ink); background: linear-gradient(180deg, #ffffff 0%, var(--nh-bg) 100%); }
-header { background: linear-gradient(135deg, var(--nh-blue), #00509e); color: #fff; padding: 28px 20px; }
+body { margin: 0; font-family: "Poppins", "Segoe UI", Arial, sans-serif; color: var(--nh-ink); background: linear-gradient(180deg, #ffffff 0%, var(--nh-bg) 100%); }
+header { background: linear-gradient(135deg, var(--nh-green-900), var(--nh-green-700)); color: #fff; padding: 24px 20px; }
 .wrap { max-width: 1280px; margin: 0 auto; }
+.brand { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+.brand img { height: 38px; width: auto; display: block; }
 h1 { margin: 0 0 8px; font-size: 1.8rem; }
 .sub { margin: 0; opacity: 0.95; }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 16px 0 8px; }
-.card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green); border-radius: 10px; padding: 14px; }
-.card b { font-size: 1.5rem; color: var(--nh-blue); }
+.card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green-700); border-radius: 10px; padding: 14px; }
+.card b { font-size: 1.5rem; color: var(--nh-green-900); }
 main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
 table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #d8e3ef; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vertical-align: top; }
-th { background: #eef5fb; position: sticky; top: 0; z-index: 1; }
+th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; color: #fff; font-size: 0.82rem; font-weight: 600; }
 .badge.pass { background: var(--pass); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
-a { color: var(--nh-blue); }
+a { color: var(--nh-green-900); }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
+    <div class="brand">
+      <img src="https://www.nuffieldhealth.com/assets/dist/images/logo_inverse.svg" alt="Nuffield Health logo" />
+    </div>
     <h1>Nuffield Health Gym Landing Page Audit</h1>
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
@@ -72,7 +78,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -82,7 +88,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -92,7 +98,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">8 facility terms found (swimming pool, pool, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -102,7 +108,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, studios); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -112,7 +118,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">9 facility terms found (pool, sauna, steam room, studio, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=5; modern formats=0; lazy-loaded=5</td>
+<td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -122,8 +128,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/birmingham-rubery" target="_blank" rel="noopener">Birmingham Rubery Fitness & Wellbeing Gym
@@ -132,7 +138,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -142,7 +148,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -152,7 +158,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -162,7 +168,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -172,7 +178,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -182,7 +188,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -192,7 +198,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -202,7 +208,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -212,7 +218,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -222,7 +228,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -232,7 +238,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -242,7 +248,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -252,7 +258,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -262,7 +268,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -272,7 +278,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spin, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=8; modern formats=0; lazy-loaded=8</td>
+<td class="small">Imagery looks strong: 8 relevant images detected, with modern delivery signals (0 modern-format assets and 8 lazy-loaded images).</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -282,7 +288,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -292,7 +298,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -302,7 +308,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, spin); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -312,7 +318,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -322,7 +328,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=15; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 15 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -332,7 +338,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -342,7 +348,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, studios, group exercise); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -352,7 +358,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -362,7 +368,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -372,7 +378,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -382,7 +388,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -392,7 +398,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -402,7 +408,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -412,7 +418,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -422,7 +428,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -432,7 +438,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=5; modern formats=0; lazy-loaded=5</td>
+<td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -442,7 +448,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, spa, gym floor, cardio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -452,7 +458,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -462,7 +468,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -472,7 +478,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -482,7 +488,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -492,8 +498,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/friern-barnet" target="_blank" rel="noopener">Friern Barnet Fitness & Wellbeing Gym
@@ -502,7 +508,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -512,7 +518,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -522,7 +528,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -532,7 +538,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -542,7 +548,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -552,7 +558,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -562,8 +568,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/guildford" target="_blank" rel="noopener">Guildford Fitness & Wellbeing Gym
@@ -572,7 +578,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -582,7 +588,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -592,7 +598,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -602,7 +608,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -612,7 +618,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -622,7 +628,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -632,7 +638,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -642,7 +648,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -652,7 +658,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -661,7 +667,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, spa, weights, free weights, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=0</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 0 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF; enable lazy-loading on more non-critical images (currently 0, target at least 3).</td>
 <td class="small">join CTA candidates=8; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -670,9 +676,9 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
-<td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">14 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leatherhead" target="_blank" rel="noopener">Leatherhead Fitness & Wellbeing Gym
@@ -681,7 +687,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -691,8 +697,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=9; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/leicester" target="_blank" rel="noopener">Leicester Fitness & Wellbeing Gym
@@ -701,7 +707,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -711,7 +717,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=5; modern formats=0; lazy-loaded=5</td>
+<td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -721,7 +727,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -731,8 +737,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/medway" target="_blank" rel="noopener">Medway Fitness & Wellbeing Gym
@@ -741,7 +747,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -751,7 +757,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">14 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=16; modern formats=0; lazy-loaded=10</td>
+<td class="small">Imagery looks strong: 16 relevant images detected, with modern delivery signals (0 modern-format assets and 10 lazy-loaded images).</td>
 <td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -761,8 +767,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/moorgate" target="_blank" rel="noopener">Moorgate Fitness & Wellbeing Gym
@@ -771,7 +777,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">8 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -781,8 +787,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=11; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/norbury" target="_blank" rel="noopener">Norbury Fitness & Wellbeing Gym
@@ -791,7 +797,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -801,7 +807,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -811,7 +817,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -821,7 +827,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -831,7 +837,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=5; modern formats=0; lazy-loaded=5</td>
+<td class="small">Imagery needs improvement: 5 relevant images found, 0 modern-format assets, 5 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 5, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -841,7 +847,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -851,8 +857,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
+<td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/devonshire-plymouth" target="_blank" rel="noopener">Plymouth (The Devonshire, Derriford) Health & Racquets Club
@@ -861,7 +867,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=18; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -871,7 +877,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -881,7 +887,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -891,7 +897,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -901,7 +907,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, group exercise); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -911,7 +917,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, group exercise, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -921,7 +927,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -931,7 +937,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, studio, spin, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -941,7 +947,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=15; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -951,7 +957,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -961,7 +967,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -971,7 +977,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -981,7 +987,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -991,7 +997,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1001,7 +1007,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1011,7 +1017,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -1021,7 +1027,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1031,8 +1037,8 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
-<td class="small">join CTA candidates=10; top-of-page CTA=false; online-signal href=true</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
+<td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
 <td><a href="https://www.nuffieldhealth.com/gyms/oxfordshire" target="_blank" rel="noopener">The Oxfordshire Health & Racquets Club
@@ -1041,7 +1047,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, studio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1051,7 +1057,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -1061,7 +1067,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, studio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1071,7 +1077,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, studio, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -1081,7 +1087,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1091,7 +1097,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -1101,7 +1107,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=12; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery looks strong: 12 relevant images detected, with modern delivery signals (0 modern-format assets and 6 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1111,7 +1117,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">11 facility terms found (swimming pool, pool, sauna, steam room, gym floor, cardio, exercise classes, personal training); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=14; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1121,7 +1127,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">13 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1131,7 +1137,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, studio); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1141,7 +1147,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=6; modern formats=0; lazy-loaded=6</td>
+<td class="small">Imagery needs improvement: 6 relevant images found, 0 modern-format assets, 6 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 6, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=11; top-of-page CTA=false; online-signal href=true</td>
 </tr>
 <tr>
@@ -1151,7 +1157,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge pass">Pass</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">12 facility terms found (swimming pool, pool, sauna, steam room, spa, gym floor, cardio, exercise classes); facilities section=true</td>
-<td class="small">meaningful images=13; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery looks strong: 13 relevant images detected, with modern delivery signals (0 modern-format assets and 7 lazy-loaded images).</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1161,7 +1167,7 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge pass">Pass</span></td>
 <td class="small">9 facility terms found (swimming pool, pool, sauna, steam room, exercise classes, personal training, pt, squash); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=13; top-of-page CTA=true; online-signal href=true</td>
 </tr>
 <tr>
@@ -1171,14 +1177,14 @@ a { color: var(--nh-blue); }
 <td><span class="badge fail">Fail</span></td>
 <td><span class="badge fail">Fail</span></td>
 <td class="small">10 facility terms found (swimming pool, pool, sauna, steam room, spa, exercise classes, personal training, pt); facilities section=true</td>
-<td class="small">meaningful images=7; modern formats=0; lazy-loaded=7</td>
+<td class="small">Imagery needs improvement: 7 relevant images found, 0 modern-format assets, 7 lazy-loaded images. Recommended actions: add more high-quality club imagery (currently 7, target at least 8); serve hero/gallery images in WebP or AVIF.</td>
 <td class="small">join CTA candidates=12; top-of-page CTA=false; online-signal href=true</td>
 </tr></tbody>
   </table>
 </main>
 <footer class="wrap">
   <div><b>Method:</b> Automated heuristic scoring of live page content from <a href="https://www.nuffieldhealth.com/sitemap_gyms.xml" target="_blank" rel="noopener">sitemap_gyms.xml</a>.</div>
-  <div>Generated: 2026-02-28T15:29:22.924Z</div>
+  <div>Generated: 2026-02-28T15:39:23.698Z</div>
 </footer>
 <script>
 const search = document.getElementById('search');

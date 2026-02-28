@@ -117,6 +117,25 @@ function criterion(pass, evidence) {
   };
 }
 
+function buildImageryEvidence(meaningfulImagesCount, modernFormatCount, lazyCount, pass) {
+  if (pass) {
+    return `Imagery looks strong: ${meaningfulImagesCount} relevant images detected, with modern delivery signals (${modernFormatCount} modern-format assets and ${lazyCount} lazy-loaded images).`;
+  }
+
+  const improvements = [];
+  if (meaningfulImagesCount < 8) {
+    improvements.push(`add more high-quality club imagery (currently ${meaningfulImagesCount}, target at least 8)`);
+  }
+  if (modernFormatCount < 1) {
+    improvements.push('serve hero/gallery images in WebP or AVIF');
+  }
+  if (lazyCount < 3) {
+    improvements.push(`enable lazy-loading on more non-critical images (currently ${lazyCount}, target at least 3)`);
+  }
+
+  return `Imagery needs improvement: ${meaningfulImagesCount} relevant images found, ${modernFormatCount} modern-format assets, ${lazyCount} lazy-loaded images. Recommended actions: ${improvements.join('; ')}.`;
+}
+
 function assessPage(url, html) {
   const $ = cheerio.load(html);
 
@@ -216,7 +235,7 @@ function assessPage(url, html) {
       ),
       imagery: criterion(
         imageryPass,
-        `meaningful images=${meaningfulImages.length}; modern formats=${modernFormatCount}; lazy-loaded=${lazyCount}`
+        buildImageryEvidence(meaningfulImages.length, modernFormatCount, lazyCount, imageryPass)
       ),
       cta: criterion(
         ctaPass,
@@ -270,39 +289,45 @@ function generateHtml(report) {
 <title>Nuffield Health Gym Landing Page Audit</title>
 <style>
 :root {
-  --nh-blue: #003a70;
-  --nh-green: #00a88f;
-  --nh-ink: #13243a;
-  --nh-bg: #f4f8fb;
+  --nh-green-900: #0f5f2f;
+  --nh-green-700: #1f8a43;
+  --nh-green-500: #49b657;
+  --nh-ink: #14311e;
+  --nh-bg: #f3faf4;
   --pass: #0a8f52;
   --fail: #c4372c;
 }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: var(--nh-ink); background: linear-gradient(180deg, #ffffff 0%, var(--nh-bg) 100%); }
-header { background: linear-gradient(135deg, var(--nh-blue), #00509e); color: #fff; padding: 28px 20px; }
+body { margin: 0; font-family: "Poppins", "Segoe UI", Arial, sans-serif; color: var(--nh-ink); background: linear-gradient(180deg, #ffffff 0%, var(--nh-bg) 100%); }
+header { background: linear-gradient(135deg, var(--nh-green-900), var(--nh-green-700)); color: #fff; padding: 24px 20px; }
 .wrap { max-width: 1280px; margin: 0 auto; }
+.brand { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+.brand img { height: 38px; width: auto; display: block; }
 h1 { margin: 0 0 8px; font-size: 1.8rem; }
 .sub { margin: 0; opacity: 0.95; }
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 16px 0 8px; }
-.card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green); border-radius: 10px; padding: 14px; }
-.card b { font-size: 1.5rem; color: var(--nh-blue); }
+.card { background: #fff; border: 1px solid #d8e3ef; border-top: 4px solid var(--nh-green-700); border-radius: 10px; padding: 14px; }
+.card b { font-size: 1.5rem; color: var(--nh-green-900); }
 main { padding: 18px 20px 30px; }
 .controls { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 input { padding: 8px 10px; border: 1px solid #c1d2e4; border-radius: 8px; min-width: 260px; }
 table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #d8e3ef; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e6eef7; vertical-align: top; }
-th { background: #eef5fb; position: sticky; top: 0; z-index: 1; }
+th { background: #e9f7ea; position: sticky; top: 0; z-index: 1; }
 .badge { display: inline-block; padding: 3px 8px; border-radius: 999px; color: #fff; font-size: 0.82rem; font-weight: 600; }
 .badge.pass { background: var(--pass); }
 .badge.fail { background: var(--fail); }
 .small { font-size: 0.84rem; color: #28425f; }
 footer { padding: 14px 20px 24px; color: #38526f; font-size: 0.9rem; }
-a { color: var(--nh-blue); }
+a { color: var(--nh-green-900); }
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
+    <div class="brand">
+      <img src="https://www.nuffieldhealth.com/assets/dist/images/logo_inverse.svg" alt="Nuffield Health logo" />
+    </div>
     <h1>Nuffield Health Gym Landing Page Audit</h1>
     <p class="sub">Assessment across club pages for facilities clarity, imagery quality, and online join CTA clarity.</p>
     <div class="kpis">
